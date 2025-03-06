@@ -1,0 +1,11 @@
+Accuracy GB: 0.9512593005212271
+F1-score (Micro): 0.8796305394517048
+Confusion Matrix: 
+[[19432   225]
+ [ 1000  4476]]
+Precision (Macro): 0.9515975041215676
+Recall (Macro): 0.9029693242022527
+F1-score (Macro): 0.9245367644002019
+Precision (Micro): 0.9512593005212271
+Recall (Micro): 0.9512593005212271
+F1-score (Micro): 0.9512593005212271
