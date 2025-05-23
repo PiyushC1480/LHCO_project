@@ -62,3 +62,5 @@ We aim to evaluate the **Particle Transformer (ParT)** model, which has shown pr
 - Chakraborty, Iyer, and Roy, _"A Framework for Finding Anomalous Objects at the LHC"_ (arXiv:1707.07084)
 - Oliveira et al., _"Jet-Images – Deep Learning Edition"_ (arXiv:1511.05190v3)
 - Huilin Qu et al., _"Jet Tagging via Particle Clouds"_ (arXiv:1902.08570v3)
+- Arindam Bhattacharya et al., _"FROCC: Fast Random projection-based One-Class Classification"_ (arXiv:2011.14317)
+- Harsh Pandey et al., _"Stability-Based Data-Dependent Generalization Bounds for Classification: Theory and Application to a Novel Method"_
