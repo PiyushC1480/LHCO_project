@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 4,
+    "dataset": "train_1413_shill-bidding",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.5557960446871465,
+        "colsample_bylevel": 0.9431429586254633,
+        "colsample_bytree": 0.6548632804225197,
+        "gamma": 2.003517186148081e-08,
+        "lambda": 0.02731155194616911,
+        "learning_rate": 0.5298061036657745,
+        "max_depth": 4,
+        "min_child_weight": 0.01888813812441559,
+        "subsample": 0.6087475652633029
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

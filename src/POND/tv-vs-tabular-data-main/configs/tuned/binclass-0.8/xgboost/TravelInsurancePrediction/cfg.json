@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.866914103923648,
+    "n_trial": 60,
+    "dataset": "TravelInsurancePrediction",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 3.3444983616108854e-07,
+        "colsample_bylevel": 0.7912563206097821,
+        "colsample_bytree": 0.5950836798779271,
+        "gamma": 0.005323332157217681,
+        "lambda": 9.73756022204246e-07,
+        "learning_rate": 0.004767655450642352,
+        "max_depth": 4,
+        "min_child_weight": 4.575698138969197e-08,
+        "subsample": 0.7089301439445101
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

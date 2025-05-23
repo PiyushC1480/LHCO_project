@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_1333_ricci_vs_destefano",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "embd",
+        "n_vectors": 550,
+        "n_kernel": 5,
+        "kernel_std": 0.31860693786212596,
+        "use_score": "rbf",
+        "reg_wt": 0.019294234703756134,
+        "d_embedding": 101
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00016188346182875241
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.796875,
+    "n_trial": 13,
+    "dataset": "train_2619_sf-police-incidents_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 393,
+        "n_kernel": 37,
+        "kernel_std": 0.5290955558369825,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.050606525025192785,
+        "d_embedding": 304
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 3.995777347298363e-05
+    }
+}

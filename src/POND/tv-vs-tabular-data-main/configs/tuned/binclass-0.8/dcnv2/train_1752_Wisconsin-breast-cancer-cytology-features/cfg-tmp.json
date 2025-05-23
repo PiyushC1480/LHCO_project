@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_1752_Wisconsin-breast-cancer-cytology-features",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.15011963158861663,
+        "d": 498,
+        "hidden_dropout": 0.013603335606499234,
+        "n_cross_layers": 5,
+        "n_hidden_layers": 7,
+        "d_embedding": 115
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.008278634816778886,
+        "weight_decay": 0.0006615826503554979
+    }
+}

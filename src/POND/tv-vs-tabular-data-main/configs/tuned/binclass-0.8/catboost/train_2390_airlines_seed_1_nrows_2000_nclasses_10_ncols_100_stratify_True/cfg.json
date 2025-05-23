@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6458128078817734,
+    "n_trial": 72,
+    "dataset": "train_2390_airlines_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 1.2243769800390731,
+        "bagging_temperature": 0.08167940544397216,
+        "depth": 3,
+        "leaf_estimation_iterations": 6,
+        "learning_rate": 0.05944608337234839
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

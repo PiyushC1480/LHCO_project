@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9769810626953485,
+    "n_trial": 97,
+    "dataset": "4534",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_wt": 0.0,
+        "combine_type": "embd",
+        "n_vectors": 610,
+        "n_kernel": 572,
+        "kernel_std": 0.38487220910772674,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "d_embedding": 76
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 1.1604629155042015e-05
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "audit_risk",
+    "model": {
+        "n_layers": 11,
+        "first_dim": 567,
+        "mid_dim": 706,
+        "last_dim": 798,
+        "dropout": 0.13171996785661633,
+        "d_embedding": 86
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.000370109133602871,
+        "weight_decay": 2.843860174520049e-06
+    }
+}

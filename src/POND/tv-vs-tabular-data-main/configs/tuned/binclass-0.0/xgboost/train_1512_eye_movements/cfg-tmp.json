@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7307600011863644,
+    "n_trial": 78,
+    "dataset": "train_1512_eye_movements",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.002566807881682196,
+        "colsample_bylevel": 0.9735630984365938,
+        "colsample_bytree": 0.7881731267146368,
+        "gamma": 0.00026998115929768195,
+        "lambda": 0.08176204463632389,
+        "learning_rate": 0.1970198081687786,
+        "max_depth": 8,
+        "min_child_weight": 0.0011539089123409514,
+        "subsample": 0.9751534639238301
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

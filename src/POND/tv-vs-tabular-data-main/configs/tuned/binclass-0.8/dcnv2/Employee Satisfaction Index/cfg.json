@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9375,
+    "n_trial": 97,
+    "dataset": "Employee Satisfaction Index",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.26946698881151376,
+        "d": 507,
+        "hidden_dropout": 0.2835038566466831,
+        "n_cross_layers": 6,
+        "n_hidden_layers": 2,
+        "d_embedding": 77
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.007030924247822242,
+        "weight_decay": 2.6506313874409875e-05
+    }
+}

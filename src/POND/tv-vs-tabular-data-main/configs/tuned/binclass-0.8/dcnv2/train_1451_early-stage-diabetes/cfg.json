@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9428571428571428,
+    "n_trial": 9,
+    "dataset": "train_1451_early-stage-diabetes",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.4218633786764598,
+        "d": 392,
+        "hidden_dropout": 0.4457542779551453,
+        "n_cross_layers": 3,
+        "n_hidden_layers": 5,
+        "d_embedding": 125
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 1.653834735287202e-05,
+        "weight_decay": 4.104579411526981e-06
+    }
+}

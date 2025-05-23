@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8984375,
+    "n_trial": 45,
+    "dataset": "train_2306_electricity_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 4.597520977127285e-05,
+        "colsample_bylevel": 0.9533501118752524,
+        "colsample_bytree": 0.791403641761021,
+        "gamma": 6.195163112258937e-07,
+        "lambda": 1.6591244607850258e-07,
+        "learning_rate": 0.07000536516208751,
+        "max_depth": 7,
+        "min_child_weight": 1.6251524670985846e-06,
+        "subsample": 0.5014474074574224
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

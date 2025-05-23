@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0526_colleges_aaup",
+        "dataset": "train_0526_colleges_aaup",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 11,
+        "dataset": "train_0526_colleges_aaup",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 1.8735911667324592e-08,
+            "colsample_bylevel": 0.998511088535547,
+            "colsample_bytree": 0.6936390138997569,
+            "gamma": 0.18370677473437017,
+            "lambda": 0.03919604695221155,
+            "learning_rate": 0.05540224315899721,
+            "max_depth": 3,
+            "min_child_weight": 2.901539907789363e-08,
+            "subsample": 0.910130222807694
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.9945661700262929,
+    "tr_times": 0.015528202056884766,
+    "ev_times": 0.00021409988403320312,
+    "test_times": 0.0001456737518310547,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 27386
+}

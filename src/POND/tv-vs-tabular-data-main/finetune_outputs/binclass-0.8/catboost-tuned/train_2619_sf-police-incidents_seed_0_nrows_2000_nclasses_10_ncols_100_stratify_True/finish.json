@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_2619_sf-police-incidents_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "dataset": "train_2619_sf-police-incidents_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7220982142857143,
+        "n_trial": 4,
+        "dataset": "train_2619_sf-police-incidents_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 9.05927611218247,
+            "bagging_temperature": 0.06151652410736652,
+            "depth": 8,
+            "leaf_estimation_iterations": 6,
+            "learning_rate": 8.313284781116027e-05
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.7220982142857143,
+    "final_test_score": 0.5019187162044305,
+    "tr_times": 0.4731464385986328,
+    "ev_times": 0.00023245811462402344,
+    "test_times": 0.00041174888610839844,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 9952
+}

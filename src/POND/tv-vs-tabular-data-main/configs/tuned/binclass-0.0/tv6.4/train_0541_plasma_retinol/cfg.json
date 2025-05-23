@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7746031746031747,
+    "n_trial": 32,
+    "dataset": "train_0541_plasma_retinol",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 112,
+        "n_kernel": 68,
+        "kernel_std": 0.2723566070990745,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.008800732857543089,
+        "d_embedding": 354
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00013388985554286484
+    }
+}

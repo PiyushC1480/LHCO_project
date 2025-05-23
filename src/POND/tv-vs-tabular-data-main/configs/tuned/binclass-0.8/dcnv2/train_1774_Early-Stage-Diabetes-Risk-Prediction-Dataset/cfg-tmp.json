@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9857142857142858,
+    "n_trial": 65,
+    "dataset": "train_1774_Early-Stage-Diabetes-Risk-Prediction-Dataset",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.46798652334679297,
+        "d": 453,
+        "hidden_dropout": 0.09839964180224538,
+        "n_cross_layers": 5,
+        "n_hidden_layers": 7,
+        "d_embedding": 66
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.008893529635137004,
+        "weight_decay": 3.159232065399063e-05
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_1413_shill-bidding",
+        "dataset": "train_1413_shill-bidding",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 49,
+        "dataset": "train_1413_shill-bidding",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 1.1097168917978306,
+            "bagging_temperature": 0.8988296746610607,
+            "depth": 4,
+            "leaf_estimation_iterations": 5,
+            "learning_rate": 0.0921111247813176
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.9962536873156341,
+    "tr_times": 0.4346354007720947,
+    "ev_times": 0.0004107952117919922,
+    "test_times": 0.0015745162963867188,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 11360
+}

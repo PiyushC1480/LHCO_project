@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 1,
+    "dataset": "Customer_Behaviour",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 165,
+        "n_kernel": 258,
+        "kernel_std": 0.39336718430275497,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.012203055351981629,
+        "d_embedding": 381
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0002507104604270823
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.981203007518797,
+    "n_trial": 4,
+    "dataset": "train_1142_Sick_numeric",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.29086021335307655,
+        "d": 473,
+        "hidden_dropout": 0.40327934808843685,
+        "n_cross_layers": 6,
+        "n_hidden_layers": 5,
+        "d_embedding": 70
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 4.155709015259679e-05,
+        "weight_decay": 1.8104822015611583e-05
+    }
+}

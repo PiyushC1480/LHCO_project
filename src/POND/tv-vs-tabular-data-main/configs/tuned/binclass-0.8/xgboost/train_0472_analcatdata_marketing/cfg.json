@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.984375,
+    "n_trial": 58,
+    "dataset": "train_0472_analcatdata_marketing",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 1.7328525713024555e-06,
+        "colsample_bylevel": 0.9693231678767198,
+        "colsample_bytree": 0.70413288254962,
+        "gamma": 0.02140212984425005,
+        "lambda": 6.4706691922734345,
+        "learning_rate": 0.00035380350798364893,
+        "max_depth": 8,
+        "min_child_weight": 0.298770275276859,
+        "subsample": 0.980196506089064
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

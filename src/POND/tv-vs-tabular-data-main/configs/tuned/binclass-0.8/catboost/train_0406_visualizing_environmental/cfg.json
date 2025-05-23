@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.625,
+    "n_trial": 0,
+    "dataset": "train_0406_visualizing_environmental",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 8.231293275941683,
+        "bagging_temperature": 0.4039674879993411,
+        "depth": 9,
+        "leaf_estimation_iterations": 2,
+        "learning_rate": 0.0021909057731698744
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

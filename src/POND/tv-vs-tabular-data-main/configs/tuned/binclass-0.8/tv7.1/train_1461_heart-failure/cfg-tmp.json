@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 12,
+    "dataset": "train_1461_heart-failure",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 396,
+        "n_kernel": 214,
+        "kernel_std": 0.8825130169739406,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.0825729147638416,
+        "d_embedding": 336
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00033242719563070363
+    }
+}

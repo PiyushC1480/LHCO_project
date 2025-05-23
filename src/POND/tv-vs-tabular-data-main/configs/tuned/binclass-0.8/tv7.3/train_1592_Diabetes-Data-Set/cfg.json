@@ -1,0 +1,29 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7916666666666667,
+    "n_trial": 44,
+    "dataset": "train_1592_Diabetes-Data-Set",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "default",
+        "n_vectors": 519,
+        "n_kernel": 82,
+        "kernel_std": 0.9404467105055515,
+        "use_score": "rbf",
+        "reg_wt": 0.057984382263966135
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00021143650008814552
+    }
+}

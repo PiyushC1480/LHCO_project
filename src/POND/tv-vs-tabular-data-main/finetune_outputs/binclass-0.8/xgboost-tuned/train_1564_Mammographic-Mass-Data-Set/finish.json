@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1564_Mammographic-Mass-Data-Set",
+        "dataset": "train_1564_Mammographic-Mass-Data-Set",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9835164835164836,
+        "n_trial": 89,
+        "dataset": "train_1564_Mammographic-Mass-Data-Set",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 3.5823389922610792e-06,
+            "colsample_bylevel": 0.8390517839052019,
+            "colsample_bytree": 0.845774803157403,
+            "gamma": 7.926354563470047e-06,
+            "lambda": 0.625977321145569,
+            "learning_rate": 0.09374270076141641,
+            "max_depth": 4,
+            "min_child_weight": 6.376251706512578e-08,
+            "subsample": 0.6225444815635792
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9835164835164836,
+    "final_test_score": 0.848075526506899,
+    "tr_times": 0.01490330696105957,
+    "ev_times": 0.0001785755157470703,
+    "test_times": 0.0001647472381591797,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 31278
+}

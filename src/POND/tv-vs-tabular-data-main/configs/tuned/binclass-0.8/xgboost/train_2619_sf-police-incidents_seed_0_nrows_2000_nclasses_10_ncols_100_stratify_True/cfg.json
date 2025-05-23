@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7299107142857143,
+    "n_trial": 57,
+    "dataset": "train_2619_sf-police-incidents_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 1.861057650699285e-07,
+        "colsample_bylevel": 0.7556856014203552,
+        "colsample_bytree": 0.5589431609132415,
+        "gamma": 0.0004426471150541283,
+        "lambda": 0.0003230977237238871,
+        "learning_rate": 0.000821708071129661,
+        "max_depth": 4,
+        "min_child_weight": 0.0009191485995887317,
+        "subsample": 0.8535893544637613
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

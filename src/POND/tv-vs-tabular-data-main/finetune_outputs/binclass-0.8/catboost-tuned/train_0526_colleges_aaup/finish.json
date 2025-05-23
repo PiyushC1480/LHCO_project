@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_0526_colleges_aaup",
+        "dataset": "train_0526_colleges_aaup",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 1,
+        "dataset": "train_0526_colleges_aaup",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 4.6468200555432455,
+            "bagging_temperature": 0.300935206540331,
+            "depth": 8,
+            "leaf_estimation_iterations": 10,
+            "learning_rate": 1.0812581530936762e-05
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.9930762489044698,
+    "tr_times": 0.956096887588501,
+    "ev_times": 0.00024318695068359375,
+    "test_times": 0.0004620552062988281,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 16736
+}

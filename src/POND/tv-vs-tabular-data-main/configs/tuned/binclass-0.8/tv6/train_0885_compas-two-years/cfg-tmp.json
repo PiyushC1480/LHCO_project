@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7146272855133615,
+    "n_trial": 3,
+    "dataset": "train_0885_compas-two-years",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 24,
+        "n_kernel": 257,
+        "kernel_std": 0.5495674732711793,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.05810737218575396,
+        "d_embedding": 358
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0005750697271862271
+    }
+}

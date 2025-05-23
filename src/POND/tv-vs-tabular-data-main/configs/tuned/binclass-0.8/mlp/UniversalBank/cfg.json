@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7403502165317267,
+    "n_trial": 52,
+    "dataset": "UniversalBank",
+    "model": {
+        "n_layers": 2,
+        "first_dim": 522,
+        "mid_dim": 764,
+        "last_dim": 172,
+        "dropout": 0.23337938571006117,
+        "d_embedding": 121
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0019996744901319067,
+        "weight_decay": 0.000702475887545148
+    }
+}

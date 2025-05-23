@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 49,
+    "dataset": "train_1413_shill-bidding",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 1.1097168917978306,
+        "bagging_temperature": 0.8988296746610607,
+        "depth": 4,
+        "leaf_estimation_iterations": 5,
+        "learning_rate": 0.0921111247813176
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

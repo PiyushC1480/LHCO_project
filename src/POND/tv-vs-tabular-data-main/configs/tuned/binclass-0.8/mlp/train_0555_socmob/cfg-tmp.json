@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.978448275862069,
+    "n_trial": 39,
+    "dataset": "train_0555_socmob",
+    "model": {
+        "n_layers": 12,
+        "first_dim": 595,
+        "mid_dim": 65,
+        "last_dim": 424,
+        "dropout": 0.4251767877197582,
+        "d_embedding": 122
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0006527378529368345,
+        "weight_decay": 0.00013588386896572156
+    }
+}

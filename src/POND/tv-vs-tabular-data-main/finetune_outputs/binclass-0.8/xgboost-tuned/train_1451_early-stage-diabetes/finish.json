@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1451_early-stage-diabetes",
+        "dataset": "train_1451_early-stage-diabetes",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9571428571428572,
+        "n_trial": 35,
+        "dataset": "train_1451_early-stage-diabetes",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 4.449944383433472e-08,
+            "colsample_bylevel": 0.8097494545223274,
+            "colsample_bytree": 0.8917891888998172,
+            "gamma": 8.798709240252633e-05,
+            "lambda": 0.0001758101021597322,
+            "learning_rate": 0.028999286891243762,
+            "max_depth": 10,
+            "min_child_weight": 0.005911380726133613,
+            "subsample": 0.9782093545616338
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9571428571428572,
+    "final_test_score": 0.9552734375,
+    "tr_times": 0.022815942764282227,
+    "ev_times": 0.0001995563507080078,
+    "test_times": 0.0001556873321533203,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 40469
+}

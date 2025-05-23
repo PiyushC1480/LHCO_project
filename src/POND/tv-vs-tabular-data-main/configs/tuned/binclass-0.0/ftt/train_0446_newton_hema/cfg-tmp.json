@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9242424242424243,
+    "n_trial": 75,
+    "dataset": "train_0446_newton_hema",
+    "model": {
+        "attention_dropout": 0.3152307177254827,
+        "d_ffn_factor": 1.2730884988991673,
+        "d_token": 168,
+        "ffn_dropout": 0.16393859475693315,
+        "n_blocks": 3,
+        "residual_dropout": 0.2238734340551332
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 1.5804581718474063e-05,
+        "weight_decay": 2.096405572719292e-05
+    }
+}

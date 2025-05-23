@@ -1,0 +1,20 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9649552803577572,
+    "n_trial": 3,
+    "dataset": "train_0356_delta_elevators",
+    "model": {
+        "n_layers": 7,
+        "first_dim": 613,
+        "mid_dim": 963,
+        "last_dim": 205,
+        "dropout": 0.4464930462689667
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.007918822950926264,
+        "weight_decay": 5.356784171060853e-05
+    }
+}

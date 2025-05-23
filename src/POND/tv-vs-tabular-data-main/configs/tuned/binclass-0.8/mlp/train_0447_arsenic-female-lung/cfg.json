@@ -1,0 +1,20 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0447_arsenic-female-lung",
+    "model": {
+        "n_layers": 8,
+        "first_dim": 571,
+        "mid_dim": 711,
+        "last_dim": 673,
+        "dropout": 0.27913151441047984
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0007301683796932229,
+        "weight_decay": 2.3921965478293552e-05
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 34,
+    "dataset": "train_1736_combined-wine-data",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.00046537653953138814,
+        "colsample_bylevel": 0.8625451512075649,
+        "colsample_bytree": 0.6207575755659591,
+        "gamma": 0.00022744279155950778,
+        "lambda": 9.5571934622175e-08,
+        "learning_rate": 0.4257360699424878,
+        "max_depth": 9,
+        "min_child_weight": 0.0017179835413645194,
+        "subsample": 0.5016226585867564
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

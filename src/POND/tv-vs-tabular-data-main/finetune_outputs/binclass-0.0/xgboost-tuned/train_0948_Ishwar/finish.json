@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_0948_Ishwar",
+        "dataset": "train_0948_Ishwar",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9965980336278143,
+        "n_trial": 99,
+        "dataset": "train_0948_Ishwar",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.009118743559129155,
+            "colsample_bylevel": 0.6850704870842679,
+            "colsample_bytree": 0.771119610135517,
+            "gamma": 0.0010004275423632606,
+            "lambda": 0.10616946376927618,
+            "learning_rate": 0.006349563997125312,
+            "max_depth": 10,
+            "min_child_weight": 0.0006159269542479028,
+            "subsample": 0.8856220113526725
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9965980336278143,
+    "final_test_score": 0.991973053208495
+}

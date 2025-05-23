@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 34,
+    "dataset": "train_0472_analcatdata_marketing",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "embd",
+        "n_vectors": 525,
+        "n_kernel": 16,
+        "kernel_std": 0.37244076523111674,
+        "use_score": "rbf",
+        "reg_wt": 0.00812185499052675,
+        "d_embedding": 69
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00023373387109900258
+    }
+}

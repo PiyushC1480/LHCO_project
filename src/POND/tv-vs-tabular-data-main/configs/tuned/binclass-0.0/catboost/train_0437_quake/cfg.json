@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.5759893581642834,
+    "n_trial": 68,
+    "dataset": "train_0437_quake",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 1.2315531870228922,
+        "bagging_temperature": 0.8513813570647605,
+        "depth": 9,
+        "leaf_estimation_iterations": 6,
+        "learning_rate": 2.14627795615298e-05
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

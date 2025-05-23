@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.671229126745141,
+    "n_trial": 69,
+    "dataset": "train_2620_sf-police-incidents_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "attention_dropout": 0.34147138453055526,
+        "d_ffn_factor": 1.4011463250133607,
+        "d_token": 208,
+        "ffn_dropout": 0.4744226135562712,
+        "n_blocks": 2,
+        "residual_dropout": 0.24692640323144094
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00037446553964061647,
+        "weight_decay": 0.0006266694013423762
+    }
+}

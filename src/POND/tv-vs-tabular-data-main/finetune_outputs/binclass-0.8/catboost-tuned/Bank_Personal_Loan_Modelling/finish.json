@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/Bank_Personal_Loan_Modelling",
+        "dataset": "Bank_Personal_Loan_Modelling",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7049519864432311,
+        "n_trial": 96,
+        "dataset": "Bank_Personal_Loan_Modelling",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 6.981626907689163,
+            "bagging_temperature": 0.9540708449687572,
+            "depth": 9,
+            "leaf_estimation_iterations": 4,
+            "learning_rate": 0.49512346645193345
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.7049519864432311,
+    "final_test_score": 0.5737555645487656,
+    "tr_times": 5.456005096435547,
+    "ev_times": 0.0003726482391357422,
+    "test_times": 0.0015048980712890625,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 498824
+}

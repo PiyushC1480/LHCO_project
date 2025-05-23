@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7352664281679533,
+    "n_trial": 68,
+    "dataset": "Bank_Personal_Loan_Modelling",
+    "model": {
+        "n_layers": 6,
+        "first_dim": 894,
+        "mid_dim": 234,
+        "last_dim": 492,
+        "dropout": 0.00012653552205826868,
+        "d_embedding": 76
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.002102529213814336,
+        "weight_decay": 0.0004187911026231765
+    }
+}

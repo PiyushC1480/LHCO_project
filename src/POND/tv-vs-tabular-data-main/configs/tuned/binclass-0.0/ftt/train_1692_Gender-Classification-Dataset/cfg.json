@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.997328125,
+    "n_trial": 92,
+    "dataset": "train_1692_Gender-Classification-Dataset",
+    "model": {
+        "attention_dropout": 0.4086992602317959,
+        "d_ffn_factor": 2.2125197632622227,
+        "d_token": 152,
+        "ffn_dropout": 0.13893134650019745,
+        "n_blocks": 2,
+        "residual_dropout": 0.4483079878404417
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 6.289984040235724e-05,
+        "weight_decay": 6.664674290544692e-06
+    }
+}

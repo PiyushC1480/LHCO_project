@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9204528959210335,
+    "n_trial": 82,
+    "dataset": "train_1458_kdd_ipums_la_97-small",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 699,
+        "n_kernel": 256,
+        "kernel_std": 0.37998031765236717,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.018480165062587768,
+        "d_embedding": 300
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0001002909268291097
+    }
+}

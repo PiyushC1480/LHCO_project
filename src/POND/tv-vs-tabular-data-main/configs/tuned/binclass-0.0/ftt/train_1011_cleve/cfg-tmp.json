@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9393939393939393,
+    "n_trial": 83,
+    "dataset": "train_1011_cleve",
+    "model": {
+        "attention_dropout": 0.2839793042643664,
+        "d_ffn_factor": 2.51415185624931,
+        "d_token": 160,
+        "ffn_dropout": 0.2945507859425652,
+        "n_blocks": 3,
+        "residual_dropout": 0.2477430758320935
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00048690231686465354,
+        "weight_decay": 4.399655980958133e-05
+    }
+}

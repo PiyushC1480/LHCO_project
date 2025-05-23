@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.726736798308744,
+    "n_trial": 91,
+    "dataset": "train_0885_compas-two-years",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.0013606860988090695,
+        "colsample_bylevel": 0.9009906300465296,
+        "colsample_bytree": 0.9194976911964445,
+        "gamma": 0.0879356858837978,
+        "lambda": 0.00016900374732953084,
+        "learning_rate": 0.01107657306185549,
+        "max_depth": 6,
+        "min_child_weight": 2.1578365792293637,
+        "subsample": 0.9179332247068677
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

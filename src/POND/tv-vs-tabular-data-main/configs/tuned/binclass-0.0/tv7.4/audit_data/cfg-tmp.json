@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9980952380952381,
+    "n_trial": 64,
+    "dataset": "audit_data",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 381,
+        "n_kernel": 246,
+        "kernel_std": 0.6656542770858114,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.03886354448137784,
+        "d_embedding": 113
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 1.1006947247109053e-05
+    }
+}

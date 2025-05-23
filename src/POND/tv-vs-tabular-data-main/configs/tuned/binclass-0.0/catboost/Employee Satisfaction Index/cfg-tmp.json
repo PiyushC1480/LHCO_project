@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6563283208020049,
+    "n_trial": 17,
+    "dataset": "Employee Satisfaction Index",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 1.04162016140221,
+        "bagging_temperature": 0.7244111361354226,
+        "depth": 6,
+        "leaf_estimation_iterations": 1,
+        "learning_rate": 0.011018907302603747
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

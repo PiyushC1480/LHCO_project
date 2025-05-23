@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1635_Is-this-a-good-customer",
+        "dataset": "train_1635_Is-this-a-good-customer",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9523809523809523,
+        "n_trial": 60,
+        "dataset": "train_1635_Is-this-a-good-customer",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 3.906169783660084e-07,
+            "colsample_bylevel": 0.7635896293569878,
+            "colsample_bytree": 0.7177127051491932,
+            "gamma": 2.0946450223788337e-08,
+            "lambda": 0.0003136177716772089,
+            "learning_rate": 0.441780291930366,
+            "max_depth": 9,
+            "min_child_weight": 2.518796894688105e-05,
+            "subsample": 0.6571072976128145
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9523809523809523,
+    "final_test_score": 0.6144628791687615,
+    "tr_times": 0.04024386405944824,
+    "ev_times": 0.00020694732666015625,
+    "test_times": 0.0002353191375732422,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 130140
+}

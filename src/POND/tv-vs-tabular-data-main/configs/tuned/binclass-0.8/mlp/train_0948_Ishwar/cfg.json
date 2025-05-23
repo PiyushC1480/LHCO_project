@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9955673758865249,
+    "n_trial": 62,
+    "dataset": "train_0948_Ishwar",
+    "model": {
+        "n_layers": 12,
+        "first_dim": 973,
+        "mid_dim": 748,
+        "last_dim": 976,
+        "dropout": 0.0038045526237889815,
+        "d_embedding": 96
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00014780242658166763,
+        "weight_decay": 4.6547832574089004e-05
+    }
+}

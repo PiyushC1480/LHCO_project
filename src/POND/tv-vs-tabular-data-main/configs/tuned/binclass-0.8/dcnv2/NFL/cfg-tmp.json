@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7478047067088164,
+    "n_trial": 87,
+    "dataset": "NFL",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.2005429681259292,
+        "d": 456,
+        "hidden_dropout": 0.25739124689298853,
+        "n_cross_layers": 8,
+        "n_hidden_layers": 5,
+        "d_embedding": 97
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00542244327577575,
+        "weight_decay": 0.0002945991110282695
+    }
+}

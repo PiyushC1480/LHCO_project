@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9998327199732352,
+    "n_trial": 85,
+    "dataset": "BankNoteAuthentication",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 215,
+        "n_kernel": 348,
+        "kernel_std": 0.47362886395273474,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.03594838398360658
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 9.462139364786158e-05
+    }
+}

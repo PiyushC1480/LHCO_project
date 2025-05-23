@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9963942307692308,
+    "n_trial": 60,
+    "dataset": "train_1451_early-stage-diabetes",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.017011429137708287,
+        "colsample_bylevel": 0.5409977674593927,
+        "colsample_bytree": 0.6662847665803492,
+        "gamma": 0.0006859583101914939,
+        "lambda": 0.48230561600850125,
+        "learning_rate": 0.019913765844817726,
+        "max_depth": 6,
+        "min_child_weight": 0.01906735596997598,
+        "subsample": 0.9284110850827835
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

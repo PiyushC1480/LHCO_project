@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.5573505228537696,
+    "n_trial": 94,
+    "dataset": "train_0509_pollen",
+    "model": {
+        "attention_dropout": 0.39266801692197445,
+        "d_ffn_factor": 1.1226342003046696,
+        "d_token": 152,
+        "ffn_dropout": 0.14100518804200066,
+        "n_blocks": 1,
+        "residual_dropout": 0.044133829786265094
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.000996859711488849,
+        "weight_decay": 3.083852266696155e-05
+    }
+}

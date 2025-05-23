@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_0406_visualizing_environmental",
+        "dataset": "train_0406_visualizing_environmental",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7839506172839505,
+        "n_trial": 21,
+        "dataset": "train_0406_visualizing_environmental",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.8439112493585567,
+            "colsample_bylevel": 0.8563551015428317,
+            "colsample_bytree": 0.7786192748560454,
+            "gamma": 1.3830609567150943e-05,
+            "lambda": 0.037747569650964416,
+            "learning_rate": 0.10894199657311375,
+            "max_depth": 5,
+            "min_child_weight": 3.299594638416299,
+            "subsample": 0.6467591245839684
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.7839506172839505,
+    "final_test_score": 0.7954545454545453
+}

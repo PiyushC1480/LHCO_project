@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9333333333333333,
+    "n_trial": 97,
+    "dataset": "train_0446_arsenic-female-bladder",
+    "model": {
+        "attention_dropout": 0.2012485816279836,
+        "d_ffn_factor": 1.5905325818869167,
+        "d_token": 160,
+        "ffn_dropout": 0.2707440684379262,
+        "n_blocks": 2,
+        "residual_dropout": 0.271218621078047
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 2.2533650972555536e-05,
+        "weight_decay": 6.323861647588845e-06
+    }
+}

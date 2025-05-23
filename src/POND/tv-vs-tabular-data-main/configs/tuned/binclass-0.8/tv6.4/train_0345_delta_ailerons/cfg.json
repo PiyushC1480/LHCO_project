@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9650111995056769,
+    "n_trial": 74,
+    "dataset": "train_0345_delta_ailerons",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 314,
+        "n_kernel": 174,
+        "kernel_std": 0.12538767319620583,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.008337608083359297
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 3.529359548257889e-05
+    }
+}

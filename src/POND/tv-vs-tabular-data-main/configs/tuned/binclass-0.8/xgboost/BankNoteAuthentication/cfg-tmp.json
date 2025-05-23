@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 6,
+    "dataset": "BankNoteAuthentication",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 2.1603515821615775e-06,
+        "colsample_bylevel": 0.6254572398843943,
+        "colsample_bytree": 0.9009932738555908,
+        "gamma": 0.004659636553719878,
+        "lambda": 0.36418201412209966,
+        "learning_rate": 0.015450747883117422,
+        "max_depth": 6,
+        "min_child_weight": 0.8633281514317991,
+        "subsample": 0.6763223304509791
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

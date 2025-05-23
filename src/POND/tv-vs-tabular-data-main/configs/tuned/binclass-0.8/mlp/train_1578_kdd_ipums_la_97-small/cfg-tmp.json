@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9664682827696327,
+    "n_trial": 30,
+    "dataset": "train_1578_kdd_ipums_la_97-small",
+    "model": {
+        "n_layers": 11,
+        "first_dim": 184,
+        "mid_dim": 70,
+        "last_dim": 923,
+        "dropout": 0.0953659510465574,
+        "d_embedding": 78
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 8.457116036478611e-05,
+        "weight_decay": 3.848335442776869e-06
+    }
+}

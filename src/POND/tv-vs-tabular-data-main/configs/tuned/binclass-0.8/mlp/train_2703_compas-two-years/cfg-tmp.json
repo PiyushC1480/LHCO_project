@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7544303797468355,
+    "n_trial": 92,
+    "dataset": "train_2703_compas-two-years",
+    "model": {
+        "n_layers": 3,
+        "first_dim": 922,
+        "mid_dim": 276,
+        "last_dim": 335,
+        "dropout": 0.2163388042085232,
+        "d_embedding": 96
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0057015344483685336,
+        "weight_decay": 0.00084498710543349
+    }
+}

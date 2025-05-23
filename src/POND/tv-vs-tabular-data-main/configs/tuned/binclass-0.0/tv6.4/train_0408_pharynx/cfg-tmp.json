@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7083333333333334,
+    "n_trial": 1,
+    "dataset": "train_0408_pharynx",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 430,
+        "n_kernel": 373,
+        "kernel_std": 0.12150290721644469,
+        "use_kernel": "rbf",
+        "use_score": "rbf",
+        "reg_wt": 0.043588771860105555,
+        "d_embedding": 396
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 6.562481385526728e-05
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.935374149659864,
+    "n_trial": 67,
+    "dataset": "train_1635_Is-this-a-good-customer",
+    "model": {
+        "n_layers": 4,
+        "first_dim": 137,
+        "mid_dim": 934,
+        "last_dim": 803,
+        "dropout": 0.11967710960769122,
+        "d_embedding": 72
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.009960882461217393,
+        "weight_decay": 2.691622473808966e-06
+    }
+}

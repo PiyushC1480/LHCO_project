@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_0446_arsenic-female-bladder",
+        "dataset": "train_0446_arsenic-female-bladder",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7111111111111111,
+        "n_trial": 13,
+        "dataset": "train_0446_arsenic-female-bladder",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 1.2576036363877234,
+            "bagging_temperature": 0.008966737534363264,
+            "depth": 7,
+            "leaf_estimation_iterations": 5,
+            "learning_rate": 0.9128185437384014
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.7111111111111111,
+    "final_test_score": 0.73828125,
+    "tr_times": 0.909557580947876,
+    "ev_times": 0.000232696533203125,
+    "test_times": 0.00019407272338867188,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 14320
+}

@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9285714285714285,
+    "n_trial": 30,
+    "dataset": "train_1451_early-stage-diabetes",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 1.9962347888597685,
+        "bagging_temperature": 0.9986780451619178,
+        "depth": 8,
+        "leaf_estimation_iterations": 7,
+        "learning_rate": 3.595796037372433e-05
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

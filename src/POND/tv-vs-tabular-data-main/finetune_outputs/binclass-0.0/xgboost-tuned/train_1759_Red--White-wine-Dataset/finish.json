@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_1759_Red--White-wine-Dataset",
+        "dataset": "train_1759_Red--White-wine-Dataset",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9999402104591837,
+        "n_trial": 29,
+        "dataset": "train_1759_Red--White-wine-Dataset",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.005215949968876606,
+            "colsample_bylevel": 0.5039746754618161,
+            "colsample_bytree": 0.8560707915571383,
+            "gamma": 1.3558949095169133,
+            "lambda": 8.386546601649707e-06,
+            "learning_rate": 0.3966169936254405,
+            "max_depth": 4,
+            "min_child_weight": 0.09123822674130518,
+            "subsample": 0.6560146910906658
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9999402104591837,
+    "final_test_score": 0.9990864158163265
+}

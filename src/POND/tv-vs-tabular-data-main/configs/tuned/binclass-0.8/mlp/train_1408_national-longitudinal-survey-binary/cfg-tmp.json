@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 22,
+    "dataset": "train_1408_national-longitudinal-survey-binary",
+    "model": {
+        "n_layers": 1,
+        "first_dim": 187,
+        "mid_dim": 528,
+        "last_dim": 617,
+        "dropout": 0.10604640528120617,
+        "d_embedding": 73
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.001678848323122474,
+        "weight_decay": 5.383988398038526e-05
+    }
+}

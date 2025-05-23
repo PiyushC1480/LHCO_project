@@ -1,0 +1,25 @@
+{
+  "metric": "roc_auc",
+  "eval_score": 0.7695820161573587,
+  "n_trial": 42,
+  "dataset": "NFL",
+  "model": {
+    "booster": "gbtree",
+    "n_estimators": 2000,
+    "n_jobs": -1,
+    "tree_method": "hist",
+    "alpha": 3.678726335517297e-05,
+    "colsample_bylevel": 0.7024460596572807,
+    "colsample_bytree": 0.9272149353140848,
+    "gamma": 9.477334693824668e-08,
+    "lambda": 3.5633545357531062,
+    "learning_rate": 0.19454451005659892,
+    "max_depth": 9,
+    "min_child_weight": 0.012609626341182728,
+    "subsample": 0.9252389336088246
+  },
+  "training": {
+    "early_stopping_rounds": 20,
+    "verbose": false
+  }
+}

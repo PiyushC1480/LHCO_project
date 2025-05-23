@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9874686716791979,
+    "n_trial": 59,
+    "dataset": "train_1142_Sick_numeric",
+    "model": {
+        "n_layers": 4,
+        "first_dim": 984,
+        "mid_dim": 800,
+        "last_dim": 901,
+        "dropout": 0.388744401214612,
+        "d_embedding": 70
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 1.0072956559103477e-05,
+        "weight_decay": 3.621033139969494e-05
+    }
+}

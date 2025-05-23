@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 2,
+    "dataset": "train_0406_visualizing_environmental",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.04160172132980189,
+        "d": 251,
+        "hidden_dropout": 0.38130690431992476,
+        "n_cross_layers": 2,
+        "n_hidden_layers": 5
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 8.118075375888932e-05,
+        "weight_decay": 1.1236363631723372e-05
+    }
+}

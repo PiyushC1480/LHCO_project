@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7620890461447737,
+    "n_trial": 87,
+    "dataset": "train_1006_Titanic",
+    "model": {
+        "attention_dropout": 0.2740500259227948,
+        "d_ffn_factor": 1.364934266617349,
+        "d_token": 120,
+        "ffn_dropout": 0.25895148213261765,
+        "n_blocks": 2,
+        "residual_dropout": 0.25851604017692253
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 3.459417926324726e-05,
+        "weight_decay": 0.0008709595365649529
+    }
+}

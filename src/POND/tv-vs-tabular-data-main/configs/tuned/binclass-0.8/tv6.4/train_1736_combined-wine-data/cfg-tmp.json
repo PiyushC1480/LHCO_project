@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 31,
+    "dataset": "train_1736_combined-wine-data",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 682,
+        "n_kernel": 298,
+        "kernel_std": 0.3793689890956264,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.08827096152561242,
+        "d_embedding": 440
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00018080791189432132
+    }
+}

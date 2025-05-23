@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9090909090909092,
+    "n_trial": 23,
+    "dataset": "train_1011_cleve",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 1.3900110529467509,
+        "bagging_temperature": 0.9859989415328445,
+        "depth": 3,
+        "leaf_estimation_iterations": 9,
+        "learning_rate": 0.042741486865822166
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

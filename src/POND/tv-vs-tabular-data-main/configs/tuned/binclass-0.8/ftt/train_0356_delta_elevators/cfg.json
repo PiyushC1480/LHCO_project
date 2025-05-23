@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9656002751977985,
+    "n_trial": 88,
+    "dataset": "train_0356_delta_elevators",
+    "model": {
+        "attention_dropout": 0.053561491065563585,
+        "d_ffn_factor": 2.3847912014582273,
+        "d_token": 144,
+        "ffn_dropout": 0.4262046518041317,
+        "n_blocks": 2,
+        "residual_dropout": 0.0774214031736438
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00038214073609510403,
+        "weight_decay": 0.000644143641987317
+    }
+}

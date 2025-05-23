@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0446_arsenic-female-bladder",
+        "dataset": "train_0446_arsenic-female-bladder",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.5,
+        "n_trial": 5,
+        "dataset": "train_0446_arsenic-female-bladder",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 1.448831629727322e-08,
+            "colsample_bylevel": 0.993360431123514,
+            "colsample_bytree": 0.793605649038375,
+            "gamma": 3.0523698103575475e-07,
+            "lambda": 2.5013070355558234e-07,
+            "learning_rate": 0.64159313620773,
+            "max_depth": 3,
+            "min_child_weight": 964.5611621757853,
+            "subsample": 0.7260583500748367
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.5,
+    "final_test_score": 0.5,
+    "tr_times": 0.009414911270141602,
+    "ev_times": 0.0001518726348876953,
+    "test_times": 0.0001461505889892578,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 9069
+}

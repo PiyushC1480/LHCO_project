@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8833017077798861,
+    "n_trial": 82,
+    "dataset": "loan_train",
+    "model": {
+        "attention_dropout": 0.3371574743157852,
+        "d_ffn_factor": 1.4730228708014372,
+        "d_token": 208,
+        "ffn_dropout": 0.22510323692969572,
+        "n_blocks": 3,
+        "residual_dropout": 0.1587145394946671
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0001828103911054157,
+        "weight_decay": 0.0006411757129595741
+    }
+}

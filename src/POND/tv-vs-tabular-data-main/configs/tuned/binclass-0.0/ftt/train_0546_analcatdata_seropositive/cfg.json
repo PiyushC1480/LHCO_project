@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0546_analcatdata_seropositive",
+    "model": {
+        "attention_dropout": 0.31978295798187506,
+        "d_ffn_factor": 1.2344397806532394,
+        "d_token": 240,
+        "ffn_dropout": 0.18704184934966606,
+        "n_blocks": 1,
+        "residual_dropout": 0.037390834219065305
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 2.3306191142458137e-05,
+        "weight_decay": 0.00023675126166095733
+    }
+}

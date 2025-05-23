@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.802734375,
+    "n_trial": 80,
+    "dataset": "train_2305_electricity_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 56,
+        "n_kernel": 180,
+        "kernel_std": 0.9010263704437776,
+        "use_kernel": "rbf",
+        "use_score": "lin",
+        "reg_wt": 0.004690070421499195,
+        "d_embedding": 306
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0005230652215861212
+    }
+}

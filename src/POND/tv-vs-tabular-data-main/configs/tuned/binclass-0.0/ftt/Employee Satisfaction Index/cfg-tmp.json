@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6885964912280701,
+    "n_trial": 7,
+    "dataset": "Employee Satisfaction Index",
+    "model": {
+        "attention_dropout": 0.18723028665664143,
+        "d_ffn_factor": 0.7372101977942839,
+        "d_token": 112,
+        "ffn_dropout": 0.05801829400577091,
+        "n_blocks": 2,
+        "residual_dropout": 0.17554622574387307
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 8.136328147344439e-05,
+        "weight_decay": 1.0579606979250274e-06
+    }
+}

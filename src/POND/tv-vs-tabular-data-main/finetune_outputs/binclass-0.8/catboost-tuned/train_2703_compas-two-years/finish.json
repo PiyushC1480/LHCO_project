@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_2703_compas-two-years",
+        "dataset": "train_2703_compas-two-years",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7321202531645569,
+        "n_trial": 55,
+        "dataset": "train_2703_compas-two-years",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 2.5767911593310946,
+            "bagging_temperature": 0.02145160401358441,
+            "depth": 9,
+            "leaf_estimation_iterations": 10,
+            "learning_rate": 0.01789462851369554
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.7321202531645569,
+    "final_test_score": 0.6926771898999632,
+    "tr_times": 1.8245840072631836,
+    "ev_times": 0.0003707408905029297,
+    "test_times": 0.0014548301696777344,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 12136
+}

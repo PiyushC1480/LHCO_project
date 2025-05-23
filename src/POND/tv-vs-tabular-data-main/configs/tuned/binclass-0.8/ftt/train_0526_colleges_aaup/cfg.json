@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0526_colleges_aaup",
+    "model": {
+        "attention_dropout": 0.24142665443816314,
+        "d_ffn_factor": 2.527374559242977,
+        "d_token": 64,
+        "ffn_dropout": 0.18256931330050302,
+        "n_blocks": 3,
+        "residual_dropout": 0.05379217565343697
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00016421368817001348,
+        "weight_decay": 0.00015106442445197307
+    }
+}

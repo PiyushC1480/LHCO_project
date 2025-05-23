@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7192028985507246,
+    "n_trial": 0,
+    "dataset": "train_1006_Titanic",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 4.737511919364827,
+        "bagging_temperature": 0.7899830225927523,
+        "depth": 10,
+        "leaf_estimation_iterations": 4,
+        "learning_rate": 0.00010650195293569302
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

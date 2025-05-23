@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_2620_sf-police-incidents_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "dataset": "train_2620_sf-police-incidents_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.8013392857142858,
+        "n_trial": 94,
+        "dataset": "train_2620_sf-police-incidents_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.0621157697126732,
+            "colsample_bylevel": 0.8926480524048781,
+            "colsample_bytree": 0.9142862060684126,
+            "gamma": 0.1531277631394426,
+            "lambda": 0.16942858539027067,
+            "learning_rate": 6.523848492067434e-05,
+            "max_depth": 10,
+            "min_child_weight": 1.1860685882139297e-07,
+            "subsample": 0.8092894375999791
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.8013392857142858,
+    "final_test_score": 0.4835455549741264,
+    "tr_times": 0.02603006362915039,
+    "ev_times": 0.0001933574676513672,
+    "test_times": 0.00015687942504882812,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 84975
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8625,
+    "n_trial": 11,
+    "dataset": "train_0408_pharynx",
+    "model": {
+        "attention_dropout": 0.4643298598739314,
+        "d_ffn_factor": 2.152157807405293,
+        "d_token": 248,
+        "ffn_dropout": 0.3301310278116166,
+        "n_blocks": 3,
+        "residual_dropout": 0.32160822658031196
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00026666192472924924,
+        "weight_decay": 5.8332789481052374e-05
+    }
+}

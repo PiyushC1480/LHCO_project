@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0400_analcatdata_supreme",
+    "model": {
+        "n_layers": 6,
+        "first_dim": 842,
+        "mid_dim": 735,
+        "last_dim": 98,
+        "dropout": 0.41228212549811166,
+        "d_embedding": 111
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0002906333759367092,
+        "weight_decay": 3.765437890781975e-05
+    }
+}

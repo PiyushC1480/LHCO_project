@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9987862189163113,
+    "n_trial": 76,
+    "dataset": "train_1201_Gender-Recognition-by-Voice",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.0008071371594067713,
+        "colsample_bylevel": 0.7076688511510417,
+        "colsample_bytree": 0.8889643917096955,
+        "gamma": 0.007844564027254797,
+        "lambda": 2.9370967451051756e-08,
+        "learning_rate": 0.5209245790533122,
+        "max_depth": 8,
+        "min_child_weight": 0.06991530558470636,
+        "subsample": 0.7855439740249056
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

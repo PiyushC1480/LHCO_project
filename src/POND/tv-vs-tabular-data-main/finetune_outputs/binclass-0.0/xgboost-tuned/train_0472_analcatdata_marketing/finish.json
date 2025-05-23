@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_0472_analcatdata_marketing",
+        "dataset": "train_0472_analcatdata_marketing",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6611842105263157,
+        "n_trial": 96,
+        "dataset": "train_0472_analcatdata_marketing",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.00278899580375152,
+            "colsample_bylevel": 0.5840564069728688,
+            "colsample_bytree": 0.5408296818693191,
+            "gamma": 0.014891769413293308,
+            "lambda": 5.088287724563395e-07,
+            "learning_rate": 0.4166945893659276,
+            "max_depth": 3,
+            "min_child_weight": 1.9880594375695332e-05,
+            "subsample": 0.9012831992230751
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.6611842105263157,
+    "final_test_score": 0.5152173913043478
+}

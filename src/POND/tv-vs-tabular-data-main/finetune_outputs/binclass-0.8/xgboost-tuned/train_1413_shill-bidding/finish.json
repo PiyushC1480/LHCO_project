@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1413_shill-bidding",
+        "dataset": "train_1413_shill-bidding",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 12,
+        "dataset": "train_1413_shill-bidding",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.060398383487134666,
+            "colsample_bylevel": 0.8596877401210311,
+            "colsample_bytree": 0.9816384523968715,
+            "gamma": 0.0003782380486233007,
+            "lambda": 0.0010556459281864062,
+            "learning_rate": 0.0003185452388444325,
+            "max_depth": 8,
+            "min_child_weight": 0.4341443755336363,
+            "subsample": 0.7268158462621875
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.9937364798426745,
+    "tr_times": 0.03548240661621094,
+    "ev_times": 0.0002872943878173828,
+    "test_times": 0.0003142356872558594,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 23842
+}

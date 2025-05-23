@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0509_pollen",
+        "dataset": "train_0509_pollen",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6081438392384981,
+        "n_trial": 29,
+        "dataset": "train_0509_pollen",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 1.613137177793294e-05,
+            "colsample_bylevel": 0.8721482851660805,
+            "colsample_bytree": 0.863861500030429,
+            "gamma": 1.1200577374415227e-08,
+            "lambda": 1.0838606937003693e-06,
+            "learning_rate": 0.009363291628104654,
+            "max_depth": 8,
+            "min_child_weight": 0.000688847738149711,
+            "subsample": 0.507555923345695
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.6081438392384981,
+    "final_test_score": 0.5103794906392309,
+    "tr_times": 0.027309656143188477,
+    "ev_times": 0.0001552104949951172,
+    "test_times": 0.0001742839813232422,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 182137
+}

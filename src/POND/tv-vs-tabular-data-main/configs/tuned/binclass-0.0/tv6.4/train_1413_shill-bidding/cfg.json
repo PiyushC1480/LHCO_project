@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9943973287446739,
+    "n_trial": 25,
+    "dataset": "train_1413_shill-bidding",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 691,
+        "n_kernel": 325,
+        "kernel_std": 0.4254854806484659,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.0018082569780017205,
+        "d_embedding": 64
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 2.578483843375569e-05
+    }
+}

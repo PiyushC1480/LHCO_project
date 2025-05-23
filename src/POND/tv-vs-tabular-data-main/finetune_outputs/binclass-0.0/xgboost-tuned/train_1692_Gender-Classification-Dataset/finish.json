@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_1692_Gender-Classification-Dataset",
+        "dataset": "train_1692_Gender-Classification-Dataset",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.99675,
+        "n_trial": 92,
+        "dataset": "train_1692_Gender-Classification-Dataset",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.0031180757395191092,
+            "colsample_bylevel": 0.6418785013373032,
+            "colsample_bytree": 0.7429011156137739,
+            "gamma": 1.3046418029073312e-05,
+            "lambda": 4.662930167305761e-08,
+            "learning_rate": 0.0023534524423973083,
+            "max_depth": 9,
+            "min_child_weight": 0.012636336391852233,
+            "subsample": 0.592672689794529
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.99675,
+    "final_test_score": 0.9977864271457085
+}

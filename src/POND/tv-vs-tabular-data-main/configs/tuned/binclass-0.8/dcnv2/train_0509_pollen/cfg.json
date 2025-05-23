@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7115282919090429,
+    "n_trial": 73,
+    "dataset": "train_0509_pollen",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.12200300668427358,
+        "d": 439,
+        "hidden_dropout": 0.3087572243341441,
+        "n_cross_layers": 8,
+        "n_hidden_layers": 2
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00660813388427687,
+        "weight_decay": 7.395807883303809e-05
+    }
+}

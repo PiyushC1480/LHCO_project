@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1461_heart-failure",
+        "dataset": "train_1461_heart-failure",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 0,
+        "dataset": "train_1461_heart-failure",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.19041363692070007,
+            "colsample_bylevel": 0.8741135262518611,
+            "colsample_bytree": 0.9801621087940291,
+            "gamma": 1.5459774972314506e-06,
+            "lambda": 45.57608218314054,
+            "learning_rate": 0.00025497779770042333,
+            "max_depth": 7,
+            "min_child_weight": 8.522636206356131e-08,
+            "subsample": 0.6293676460874449
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.7066752246469832,
+    "tr_times": 0.01569199562072754,
+    "ev_times": 0.000209808349609375,
+    "test_times": 0.00014281272888183594,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 19503
+}

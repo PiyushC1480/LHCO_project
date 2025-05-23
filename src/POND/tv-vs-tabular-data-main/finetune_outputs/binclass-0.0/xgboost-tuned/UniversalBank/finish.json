@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/UniversalBank",
+        "dataset": "UniversalBank",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6436829222368669,
+        "n_trial": 98,
+        "dataset": "UniversalBank",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.08112468539473901,
+            "colsample_bylevel": 0.7145277372695475,
+            "colsample_bytree": 0.5128218812421219,
+            "gamma": 0.00019241770642804194,
+            "lambda": 0.48625893416144256,
+            "learning_rate": 2.7198065602514506e-05,
+            "max_depth": 10,
+            "min_child_weight": 3.573930649537254e-08,
+            "subsample": 0.7062947004968526
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.6436829222368669,
+    "final_test_score": 0.6059070937156732
+}

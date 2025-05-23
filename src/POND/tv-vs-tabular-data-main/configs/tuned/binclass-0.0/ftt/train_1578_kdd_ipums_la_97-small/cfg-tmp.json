@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9451879808390187,
+    "n_trial": 46,
+    "dataset": "train_1578_kdd_ipums_la_97-small",
+    "model": {
+        "attention_dropout": 0.04393200707167799,
+        "d_ffn_factor": 1.9997599593303645,
+        "d_token": 200,
+        "ffn_dropout": 0.37024499078681633,
+        "n_blocks": 1,
+        "residual_dropout": 0.0033810784076384603
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 7.670760278058784e-05,
+        "weight_decay": 2.09339494685089e-06
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 2,
+    "dataset": "Customer_Behaviour",
+    "model": {
+        "n_layers": 3,
+        "first_dim": 557,
+        "mid_dim": 757,
+        "last_dim": 342,
+        "dropout": 0.39951760228945377,
+        "d_embedding": 76
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0024367304532157746,
+        "weight_decay": 1.046014007669795e-05
+    }
+}

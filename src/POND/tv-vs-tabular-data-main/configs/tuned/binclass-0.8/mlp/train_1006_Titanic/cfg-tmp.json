@@ -1,0 +1,20 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8016304347826088,
+    "n_trial": 23,
+    "dataset": "train_1006_Titanic",
+    "model": {
+        "n_layers": 6,
+        "first_dim": 309,
+        "mid_dim": 93,
+        "last_dim": 116,
+        "dropout": 0.38766757697332505
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00015044055938281915,
+        "weight_decay": 0.00040057132852533455
+    }
+}

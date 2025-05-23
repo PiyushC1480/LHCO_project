@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.99948114839156,
+    "n_trial": 32,
+    "dataset": "train_1408_national-longitudinal-survey-binary",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "default",
+        "d_embedding": 64,
+        "n_vectors": 142,
+        "n_kernel": 375,
+        "kernel_std": 0.4371445305974647,
+        "use_score": "lin",
+        "reg_wt": 0.0015086772739592007
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00034571446159956424
+    }
+}

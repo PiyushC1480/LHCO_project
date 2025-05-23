@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.99822695035461,
+    "n_trial": 27,
+    "dataset": "train_0948_Ishwar",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.0834007536108432,
+        "d": 353,
+        "hidden_dropout": 0.33151923527820104,
+        "n_cross_layers": 8,
+        "n_hidden_layers": 7,
+        "d_embedding": 117
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.004465674193353377,
+        "weight_decay": 6.791068339733998e-06
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6326103275255819,
+    "n_trial": 82,
+    "dataset": "train_2392_airlines_seed_3_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "attention_dropout": 0.10078402050375326,
+        "d_ffn_factor": 1.1360743890999165,
+        "d_token": 224,
+        "ffn_dropout": 0.3468038481283917,
+        "n_blocks": 3,
+        "residual_dropout": 0.17960183848768052
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0007700445007704664,
+        "weight_decay": 6.5830775560656154e-06
+    }
+}

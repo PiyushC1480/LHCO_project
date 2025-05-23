@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_1408_national-longitudinal-survey-binary",
+    "model": {
+        "attention_dropout": 0.2843463195188824,
+        "d_ffn_factor": 2.1603300258836744,
+        "d_token": 120,
+        "ffn_dropout": 0.42747056757140056,
+        "n_blocks": 2,
+        "residual_dropout": 0.25634019566169564
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0005358195488930963,
+        "weight_decay": 2.734404011505744e-05
+    }
+}

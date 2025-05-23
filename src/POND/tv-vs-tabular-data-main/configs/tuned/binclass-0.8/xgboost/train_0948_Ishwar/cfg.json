@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9955673758865248,
+    "n_trial": 99,
+    "dataset": "train_0948_Ishwar",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 4.308843371135273e-08,
+        "colsample_bylevel": 0.9474682603235245,
+        "colsample_bytree": 0.8763632418133186,
+        "gamma": 1.2934016454291435,
+        "lambda": 0.0016056338938755267,
+        "learning_rate": 0.024118490808478353,
+        "max_depth": 8,
+        "min_child_weight": 5.0600293858162226e-08,
+        "subsample": 0.7065773594246101
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

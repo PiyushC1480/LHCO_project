@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_2703_compas-two-years",
+        "dataset": "train_2703_compas-two-years",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.732120253164557,
+        "n_trial": 26,
+        "dataset": "train_2703_compas-two-years",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 2.577822739125186,
+            "colsample_bylevel": 0.6311384005747888,
+            "colsample_bytree": 0.8104250612199231,
+            "gamma": 0.06665846873972449,
+            "lambda": 0.0001381675178341692,
+            "learning_rate": 0.03412589579280106,
+            "max_depth": 7,
+            "min_child_weight": 0.03603767157101049,
+            "subsample": 0.75029821110638
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.732120253164557,
+    "final_test_score": 0.6763680675602914,
+    "tr_times": 0.01725316047668457,
+    "ev_times": 0.0002562999725341797,
+    "test_times": 0.0001690387725830078,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 38492
+}

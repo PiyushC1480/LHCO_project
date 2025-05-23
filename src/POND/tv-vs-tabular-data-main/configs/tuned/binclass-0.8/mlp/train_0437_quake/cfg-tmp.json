@@ -1,0 +1,20 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.728701406120761,
+    "n_trial": 24,
+    "dataset": "train_0437_quake",
+    "model": {
+        "n_layers": 14,
+        "first_dim": 189,
+        "mid_dim": 110,
+        "last_dim": 173,
+        "dropout": 0.24742811593995795
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0006975303678412234,
+        "weight_decay": 6.145877692695338e-05
+    }
+}

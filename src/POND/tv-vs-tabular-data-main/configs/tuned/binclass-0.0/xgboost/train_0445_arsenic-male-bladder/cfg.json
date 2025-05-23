@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9767441860465116,
+    "n_trial": 30,
+    "dataset": "train_0445_arsenic-male-bladder",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 7.025658467569392e-08,
+        "colsample_bylevel": 0.8430759718674375,
+        "colsample_bytree": 0.9713395892219479,
+        "gamma": 2.8007064669720504e-06,
+        "lambda": 5.4564483215018126e-08,
+        "learning_rate": 0.32345536950125686,
+        "max_depth": 6,
+        "min_child_weight": 1.5913348630464842e-06,
+        "subsample": 0.8534066243454158
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

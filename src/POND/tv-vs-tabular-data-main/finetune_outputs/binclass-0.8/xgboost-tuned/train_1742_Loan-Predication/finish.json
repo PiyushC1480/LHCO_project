@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1742_Loan-Predication",
+        "dataset": "train_1742_Loan-Predication",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.8690476190476192,
+        "n_trial": 61,
+        "dataset": "train_1742_Loan-Predication",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 2.64748036862374e-07,
+            "colsample_bylevel": 0.876966189740294,
+            "colsample_bytree": 0.7218483391662098,
+            "gamma": 3.1933347132902265e-05,
+            "lambda": 5.6710510014979865e-05,
+            "learning_rate": 0.3473477031983166,
+            "max_depth": 5,
+            "min_child_weight": 0.6305574961883457,
+            "subsample": 0.5788535543128731
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.8690476190476192,
+    "final_test_score": 0.6992260061919504,
+    "tr_times": 0.018375635147094727,
+    "ev_times": 0.00019407272338867188,
+    "test_times": 0.00014162063598632812,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 26061
+}

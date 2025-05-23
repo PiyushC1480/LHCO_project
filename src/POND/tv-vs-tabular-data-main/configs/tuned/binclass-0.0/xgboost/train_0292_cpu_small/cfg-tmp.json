@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9821245239278026,
+    "n_trial": 99,
+    "dataset": "train_0292_cpu_small",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.00042648905363120825,
+        "colsample_bylevel": 0.558888688954018,
+        "colsample_bytree": 0.7619215285282986,
+        "gamma": 0.007904232145863329,
+        "lambda": 0.004481152458104388,
+        "learning_rate": 0.13110138654673817,
+        "max_depth": 8,
+        "min_child_weight": 2.9657160636505355,
+        "subsample": 0.9865529460396719
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

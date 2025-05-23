@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 1,
+    "dataset": "train_1333_ricci_vs_destefano",
+    "model": {
+        "attention_dropout": 0.3648480091477747,
+        "d_ffn_factor": 0.6720868263828385,
+        "d_token": 240,
+        "ffn_dropout": 0.1949475960059619,
+        "n_blocks": 3,
+        "residual_dropout": 0.25283267769016615
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0004769905656149815,
+        "weight_decay": 1.2106341834097836e-06
+    }
+}

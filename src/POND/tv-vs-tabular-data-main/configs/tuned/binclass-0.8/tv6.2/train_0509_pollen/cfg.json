@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6470121628767848,
+    "n_trial": 38,
+    "dataset": "train_0509_pollen",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 112,
+        "n_kernel": 51,
+        "kernel_std": 0.5202345103497004,
+        "use_kernel": "rbf",
+        "use_score": "rbf",
+        "reg_wt": 0.007431225526360851
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 1.1618074833320745e-05
+    }
+}

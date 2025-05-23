@@ -1,0 +1,37 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.0/catboost-tuned/train_1142_Sick_numeric",
+        "dataset": "train_1142_Sick_numeric",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9990466657133324,
+        "n_trial": 81,
+        "dataset": "train_1142_Sick_numeric",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 2.238473681342287,
+            "bagging_temperature": 0.5145192481243416,
+            "depth": 9,
+            "leaf_estimation_iterations": 9,
+            "learning_rate": 0.26512572423340963
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.9990466657133324,
+    "final_test_score": 0.99757772735635
+}

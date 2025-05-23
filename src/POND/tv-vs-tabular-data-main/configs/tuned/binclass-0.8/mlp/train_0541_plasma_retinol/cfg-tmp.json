@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9166666666666666,
+    "n_trial": 51,
+    "dataset": "train_0541_plasma_retinol",
+    "model": {
+        "n_layers": 14,
+        "first_dim": 442,
+        "mid_dim": 601,
+        "last_dim": 750,
+        "dropout": 0.0760802034092282,
+        "d_embedding": 91
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0030385371363594485,
+        "weight_decay": 8.026338196774708e-05
+    }
+}

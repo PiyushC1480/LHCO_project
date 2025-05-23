@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/Bank_Personal_Loan_Modelling",
+        "dataset": "Bank_Personal_Loan_Modelling",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6578798719638486,
+        "n_trial": 81,
+        "dataset": "Bank_Personal_Loan_Modelling",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.3504118028163025,
+            "colsample_bylevel": 0.7150383711639712,
+            "colsample_bytree": 0.7083433389815211,
+            "gamma": 0.007187509970182116,
+            "lambda": 0.0027113106864962754,
+            "learning_rate": 0.06622099946329581,
+            "max_depth": 7,
+            "min_child_weight": 1.9974315412233762e-07,
+            "subsample": 0.7727520649303338
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.6578798719638486,
+    "final_test_score": 0.6016120329151491,
+    "tr_times": 0.060129642486572266,
+    "ev_times": 0.00024700164794921875,
+    "test_times": 0.0002579689025878906,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 358175
+}

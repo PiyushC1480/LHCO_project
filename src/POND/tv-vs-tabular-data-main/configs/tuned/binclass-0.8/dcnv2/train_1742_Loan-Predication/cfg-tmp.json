@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9285714285714286,
+    "n_trial": 52,
+    "dataset": "train_1742_Loan-Predication",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.3094222419898255,
+        "d": 483,
+        "hidden_dropout": 0.2619300577643144,
+        "n_cross_layers": 7,
+        "n_hidden_layers": 7,
+        "d_embedding": 114
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.007475495849505305,
+        "weight_decay": 0.00041647364821811893
+    }
+}

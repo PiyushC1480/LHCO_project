@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 2,
+    "dataset": "train_0424_autoPrice",
+    "model": {
+        "attention_dropout": 0.18919278019513464,
+        "d_ffn_factor": 2.401088132925257,
+        "d_token": 240,
+        "ffn_dropout": 0.014574894264012483,
+        "n_blocks": 1,
+        "residual_dropout": 0.29126297987350214
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 2.058760935278138e-05,
+        "weight_decay": 5.331483408930396e-05
+    }
+}

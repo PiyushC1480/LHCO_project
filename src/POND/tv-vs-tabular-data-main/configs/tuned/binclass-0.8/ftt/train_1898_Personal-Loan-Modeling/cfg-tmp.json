@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7132366785916022,
+    "n_trial": 91,
+    "dataset": "train_1898_Personal-Loan-Modeling",
+    "model": {
+        "attention_dropout": 0.3752749347452281,
+        "d_ffn_factor": 2.4417439903148135,
+        "d_token": 208,
+        "ffn_dropout": 0.2824142408122676,
+        "n_blocks": 2,
+        "residual_dropout": 0.29176563571319764
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0005530275506159148,
+        "weight_decay": 0.0002711393653512148
+    }
+}

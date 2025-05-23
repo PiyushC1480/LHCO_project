@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.995390625,
+    "n_trial": 30,
+    "dataset": "train_1692_Gender-Classification-Dataset",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 5.623287711561835e-08,
+        "colsample_bylevel": 0.58141822041507,
+        "colsample_bytree": 0.537128949318767,
+        "gamma": 7.085418370855523e-05,
+        "lambda": 8.660142620561318e-06,
+        "learning_rate": 0.00676785528327611,
+        "max_depth": 7,
+        "min_child_weight": 15.512364574911162,
+        "subsample": 0.7876186328983245
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

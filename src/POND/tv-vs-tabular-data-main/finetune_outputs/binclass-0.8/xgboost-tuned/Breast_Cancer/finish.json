@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/Breast_Cancer",
+        "dataset": "Breast_Cancer",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.841743119266055,
+        "n_trial": 81,
+        "dataset": "Breast_Cancer",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.3375773477894841,
+            "colsample_bylevel": 0.9779868558558796,
+            "colsample_bytree": 0.5228838622738672,
+            "gamma": 1.073216270622469e-07,
+            "lambda": 0.00014282720452811693,
+            "learning_rate": 0.09670340537632482,
+            "max_depth": 8,
+            "min_child_weight": 0.8153661806915704,
+            "subsample": 0.8322534228280064
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.841743119266055,
+    "final_test_score": 0.8043177645852705,
+    "tr_times": 0.05167746543884277,
+    "ev_times": 0.0002315044403076172,
+    "test_times": 0.00026535987854003906,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 148262
+}

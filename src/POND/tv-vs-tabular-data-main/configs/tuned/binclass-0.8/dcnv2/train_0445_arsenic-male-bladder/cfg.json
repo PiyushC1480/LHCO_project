@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0445_arsenic-male-bladder",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.167824370991987,
+        "d": 408,
+        "hidden_dropout": 0.2120383323626568,
+        "n_cross_layers": 5,
+        "n_hidden_layers": 4
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0017330403622136505,
+        "weight_decay": 4.084828049395509e-05
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6605159103746941,
+    "n_trial": 51,
+    "dataset": "train_1898_Personal-Loan-Modeling",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "embd",
+        "n_vectors": 733,
+        "n_kernel": 227,
+        "kernel_std": 0.5542073776925459,
+        "use_score": "lin",
+        "reg_wt": 0.0020419716371387277,
+        "d_embedding": 111
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 1.4020601112117997e-05
+    }
+}

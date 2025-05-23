@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0408_pharynx",
+        "dataset": "train_0408_pharynx",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 6,
+        "dataset": "train_0408_pharynx",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 9.512337170241135e-05,
+            "colsample_bylevel": 0.9919211005850683,
+            "colsample_bytree": 0.7047288978842502,
+            "gamma": 6.209301225245341e-07,
+            "lambda": 66.25133627044933,
+            "learning_rate": 0.021481841426392916,
+            "max_depth": 4,
+            "min_child_weight": 0.0013760175533990135,
+            "subsample": 0.5275419522304428
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.7875,
+    "tr_times": 0.015039205551147461,
+    "ev_times": 0.00018596649169921875,
+    "test_times": 0.00014138221740722656,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 16722
+}

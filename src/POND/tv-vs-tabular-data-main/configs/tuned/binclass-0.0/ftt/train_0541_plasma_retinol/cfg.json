@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7555555555555556,
+    "n_trial": 89,
+    "dataset": "train_0541_plasma_retinol",
+    "model": {
+        "attention_dropout": 0.16630584750964164,
+        "d_ffn_factor": 1.6057844681397992,
+        "d_token": 184,
+        "ffn_dropout": 0.19295679739839924,
+        "n_blocks": 2,
+        "residual_dropout": 0.01632443653396206
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00020621360202943698,
+        "weight_decay": 2.3394110372874335e-06
+    }
+}

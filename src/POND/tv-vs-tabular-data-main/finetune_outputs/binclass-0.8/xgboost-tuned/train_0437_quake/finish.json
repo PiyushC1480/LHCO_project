@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0437_quake",
+        "dataset": "train_0437_quake",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6439205955334987,
+        "n_trial": 52,
+        "dataset": "train_0437_quake",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 7.18928346792108e-07,
+            "colsample_bylevel": 0.8442910334129016,
+            "colsample_bytree": 0.9032810055445261,
+            "gamma": 0.00012807272595005418,
+            "lambda": 0.8836155285853728,
+            "learning_rate": 0.6107532473651948,
+            "max_depth": 6,
+            "min_child_weight": 1.2185929871149915e-08,
+            "subsample": 0.6916875574879914
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.6439205955334987,
+    "final_test_score": 0.5076148078725398,
+    "tr_times": 0.023977041244506836,
+    "ev_times": 0.00015211105346679688,
+    "test_times": 0.00015854835510253906,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 91089
+}

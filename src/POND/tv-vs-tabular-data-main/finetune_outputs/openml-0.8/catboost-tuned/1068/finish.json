@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/openml-0.8/catboost-tuned/1068",
+        "dataset": "1068",
+        "task": "openml",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9140625,
+        "n_trial": 86,
+        "dataset": "1068",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 1.503327119298761,
+            "bagging_temperature": 0.660476563247746,
+            "depth": 4,
+            "leaf_estimation_iterations": 10,
+            "learning_rate": 7.113550707186937e-05
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.9140625,
+    "final_test_score": 0.6995529363950417,
+    "tr_times": 0.5283622741699219,
+    "ev_times": 0.00026869773864746094,
+    "test_times": 0.0003669261932373047,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 10904
+}

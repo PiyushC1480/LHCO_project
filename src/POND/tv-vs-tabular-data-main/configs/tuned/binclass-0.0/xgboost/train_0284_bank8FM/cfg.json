@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.988017250131745,
+    "n_trial": 70,
+    "dataset": "train_0284_bank8FM",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 3.1292977156751465,
+        "colsample_bylevel": 0.9543856628751849,
+        "colsample_bytree": 0.9081898376909624,
+        "gamma": 0.00016181442547636826,
+        "lambda": 8.505940397010708e-07,
+        "learning_rate": 0.10866219763379976,
+        "max_depth": 5,
+        "min_child_weight": 0.02268166345979055,
+        "subsample": 0.8808685776323423
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

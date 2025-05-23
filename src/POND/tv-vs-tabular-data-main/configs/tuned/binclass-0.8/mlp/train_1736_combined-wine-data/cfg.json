@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 4,
+    "dataset": "train_1736_combined-wine-data",
+    "model": {
+        "n_layers": 1,
+        "first_dim": 1012,
+        "mid_dim": 992,
+        "last_dim": 919,
+        "dropout": 0.33293915390747586,
+        "d_embedding": 93
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.006258501530637682,
+        "weight_decay": 8.465139862455914e-06
+    }
+}

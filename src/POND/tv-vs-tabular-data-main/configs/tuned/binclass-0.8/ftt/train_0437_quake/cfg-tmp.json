@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7377998345740281,
+    "n_trial": 95,
+    "dataset": "train_0437_quake",
+    "model": {
+        "attention_dropout": 0.11072133968717797,
+        "d_ffn_factor": 1.1994475842657335,
+        "d_token": 104,
+        "ffn_dropout": 0.3011745019813751,
+        "n_blocks": 2,
+        "residual_dropout": 0.41686034307414127
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00011899442499549699,
+        "weight_decay": 8.497732031381192e-05
+    }
+}

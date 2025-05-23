@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8238532110091742,
+    "n_trial": 56,
+    "dataset": "Breast_Cancer",
+    "model": {
+        "n_layers": 10,
+        "first_dim": 354,
+        "mid_dim": 544,
+        "last_dim": 168,
+        "dropout": 0.36548101507991654,
+        "d_embedding": 122
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0017084770611291138,
+        "weight_decay": 0.0005570792587196196
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "audit_risk",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.05599170390191177,
+        "d": 227,
+        "hidden_dropout": 0.2972055475562828,
+        "n_cross_layers": 2,
+        "n_hidden_layers": 3,
+        "d_embedding": 103
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.007351306784053451,
+        "weight_decay": 3.4957992406633554e-06
+    }
+}

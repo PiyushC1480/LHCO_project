@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1512_eye_movements",
+        "dataset": "train_1512_eye_movements",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6721311475409836,
+        "n_trial": 44,
+        "dataset": "train_1512_eye_movements",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 1.6578004177987361e-06,
+            "colsample_bylevel": 0.9191845284894626,
+            "colsample_bytree": 0.92898735252973,
+            "gamma": 0.000404102079807401,
+            "lambda": 0.2802049459257797,
+            "learning_rate": 0.07811302060650986,
+            "max_depth": 4,
+            "min_child_weight": 7.316106141784172e-06,
+            "subsample": 0.6569163720875899
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.6721311475409836,
+    "final_test_score": 0.6083296927585082,
+    "tr_times": 0.023532867431640625,
+    "ev_times": 0.00020599365234375,
+    "test_times": 0.00021386146545410156,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 56905
+}

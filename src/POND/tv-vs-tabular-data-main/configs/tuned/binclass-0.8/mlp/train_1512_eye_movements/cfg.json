@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6188524590163934,
+    "n_trial": 51,
+    "dataset": "train_1512_eye_movements",
+    "model": {
+        "n_layers": 12,
+        "first_dim": 464,
+        "mid_dim": 808,
+        "last_dim": 299,
+        "dropout": 0.1801929017699471,
+        "d_embedding": 102
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0013514765872422688,
+        "weight_decay": 4.35400981696177e-05
+    }
+}

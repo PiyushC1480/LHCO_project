@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/openml-0.8/xgboost-tuned/3",
+        "dataset": "3",
+        "task": "openml",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9904347826086957,
+        "n_trial": 88,
+        "dataset": "3",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.15847313258300563,
+            "colsample_bylevel": 0.7826840589729922,
+            "colsample_bytree": 0.9878363287317508,
+            "gamma": 2.3886238380360734e-05,
+            "lambda": 3.2688041952733493e-07,
+            "learning_rate": 0.6525341861735294,
+            "max_depth": 4,
+            "min_child_weight": 0.00010544685661820338,
+            "subsample": 0.7403866206894776
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9904347826086957,
+    "final_test_score": 0.9948146195085816,
+    "tr_times": 0.02470541000366211,
+    "ev_times": 0.00017380714416503906,
+    "test_times": 0.0002949237823486328,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 50669
+}

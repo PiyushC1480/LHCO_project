@@ -1,0 +1,20 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6743786356425172,
+    "n_trial": 45,
+    "dataset": "train_0509_pollen",
+    "model": {
+        "n_layers": 13,
+        "first_dim": 838,
+        "mid_dim": 158,
+        "last_dim": 316,
+        "dropout": 0.12378825383919964
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.004379568106733303,
+        "weight_decay": 1.024867511259593e-06
+    }
+}

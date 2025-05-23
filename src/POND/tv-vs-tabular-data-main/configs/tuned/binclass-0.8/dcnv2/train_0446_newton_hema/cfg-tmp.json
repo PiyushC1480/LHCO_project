@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0446_newton_hema",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.2623428158743248,
+        "d": 336,
+        "hidden_dropout": 0.11190955701121352,
+        "n_cross_layers": 3,
+        "n_hidden_layers": 3,
+        "d_embedding": 99
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.002495366455273587,
+        "weight_decay": 1.0902297703776102e-06
+    }
+}

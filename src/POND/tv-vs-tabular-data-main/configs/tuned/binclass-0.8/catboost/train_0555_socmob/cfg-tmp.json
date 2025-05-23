@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9525862068965517,
+    "n_trial": 93,
+    "dataset": "train_0555_socmob",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 8.87153158016319,
+        "bagging_temperature": 0.15627528216803088,
+        "depth": 5,
+        "leaf_estimation_iterations": 10,
+        "learning_rate": 0.4188813528329859
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

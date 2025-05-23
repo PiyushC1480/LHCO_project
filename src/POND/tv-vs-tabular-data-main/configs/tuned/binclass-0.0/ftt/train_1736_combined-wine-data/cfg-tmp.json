@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9999451929209184,
+    "n_trial": 89,
+    "dataset": "train_1736_combined-wine-data",
+    "model": {
+        "attention_dropout": 0.35543127909687044,
+        "d_ffn_factor": 2.408496275573508,
+        "d_token": 104,
+        "ffn_dropout": 0.018806075557077917,
+        "n_blocks": 2,
+        "residual_dropout": 0.1769677127803592
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0005948801390996884,
+        "weight_decay": 2.2415915140173986e-05
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_0509_pollen",
+        "dataset": "train_0509_pollen",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.5515600211528292,
+        "n_trial": 78,
+        "dataset": "train_0509_pollen",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 8.97563634460659,
+            "bagging_temperature": 0.696229600609521,
+            "depth": 10,
+            "leaf_estimation_iterations": 2,
+            "learning_rate": 2.1985640129987158e-05
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.5515600211528292,
+    "final_test_score": 0.4874784955304436,
+    "tr_times": 3.889772415161133,
+    "ev_times": 0.0003218650817871094,
+    "test_times": 0.00020933151245117188,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 17848
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8828125,
+    "n_trial": 32,
+    "dataset": "train_2305_electricity_seed_1_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "n_layers": 12,
+        "first_dim": 594,
+        "mid_dim": 461,
+        "last_dim": 383,
+        "dropout": 0.227463867712746,
+        "d_embedding": 84
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0010276716147170325,
+        "weight_decay": 1.872046234460712e-05
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 1,
+    "dataset": "train_1201_Gender-Recognition-by-Voice",
+    "model": {
+        "attention_dropout": 0.1679372515433163,
+        "d_ffn_factor": 0.7625423550681724,
+        "d_token": 176,
+        "ffn_dropout": 0.1509167568927524,
+        "n_blocks": 2,
+        "residual_dropout": 0.02532486076337448
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 3.991689482202322e-05,
+        "weight_decay": 1.6903890528272562e-06
+    }
+}

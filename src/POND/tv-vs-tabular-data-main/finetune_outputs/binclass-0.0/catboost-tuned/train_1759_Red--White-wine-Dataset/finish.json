@@ -1,0 +1,37 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.0/catboost-tuned/train_1759_Red--White-wine-Dataset",
+        "dataset": "train_1759_Red--White-wine-Dataset",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9999451929209184,
+        "n_trial": 91,
+        "dataset": "train_1759_Red--White-wine-Dataset",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 1.3641317158916426,
+            "bagging_temperature": 0.8229700552200427,
+            "depth": 9,
+            "leaf_estimation_iterations": 10,
+            "learning_rate": 0.5169215367121783
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.9999451929209184,
+    "final_test_score": 0.9992315051020408
+}

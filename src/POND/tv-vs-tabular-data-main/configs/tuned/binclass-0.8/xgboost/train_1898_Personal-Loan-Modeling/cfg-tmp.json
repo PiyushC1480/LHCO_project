@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6896064771229523,
+    "n_trial": 65,
+    "dataset": "train_1898_Personal-Loan-Modeling",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.00011506805019192613,
+        "colsample_bylevel": 0.6543802343011884,
+        "colsample_bytree": 0.8861738041823995,
+        "gamma": 6.868344934744504e-06,
+        "lambda": 0.5107951072705299,
+        "learning_rate": 0.10069425889578514,
+        "max_depth": 6,
+        "min_child_weight": 3.17485825003941e-08,
+        "subsample": 0.5384401298880499
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

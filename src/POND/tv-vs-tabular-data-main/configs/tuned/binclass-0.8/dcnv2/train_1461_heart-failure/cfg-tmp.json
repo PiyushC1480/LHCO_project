@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 45,
+    "dataset": "train_1461_heart-failure",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.28218054824285904,
+        "d": 80,
+        "hidden_dropout": 0.06721627206294414,
+        "n_cross_layers": 6,
+        "n_hidden_layers": 1,
+        "d_embedding": 78
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0005707743072758671,
+        "weight_decay": 1.7630006833785906e-05
+    }
+}

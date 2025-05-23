@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 1,
+    "dataset": "train_1333_ricci_vs_destefano",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 1.4368547074456996e-08,
+        "colsample_bylevel": 0.8789482890293212,
+        "colsample_bytree": 0.7466027585874946,
+        "gamma": 0.0010751251050933799,
+        "lambda": 8.351072439622057e-05,
+        "learning_rate": 8.364606375144538e-05,
+        "max_depth": 4,
+        "min_child_weight": 0.320487803542198,
+        "subsample": 0.997565089450624
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

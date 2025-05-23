@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9975961538461539,
+    "n_trial": 57,
+    "dataset": "diabetes_data_upload",
+    "model": {
+        "attention_dropout": 0.06150121657534462,
+        "d_ffn_factor": 1.715799709314055,
+        "d_token": 168,
+        "ffn_dropout": 0.17066150297950022,
+        "n_blocks": 2,
+        "residual_dropout": 0.1535450172344754
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0002584040827156608,
+        "weight_decay": 3.298279473272868e-06
+    }
+}

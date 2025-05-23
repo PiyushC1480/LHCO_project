@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9831621224994207,
+    "n_trial": 51,
+    "dataset": "train_0345_delta_ailerons",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 5.333224705359741,
+        "bagging_temperature": 0.9912475233842557,
+        "depth": 10,
+        "leaf_estimation_iterations": 2,
+        "learning_rate": 0.20807288216367048
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

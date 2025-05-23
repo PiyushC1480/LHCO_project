@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7438423645320197,
+    "n_trial": 81,
+    "dataset": "train_2389_airlines_seed_0_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 495,
+        "n_kernel": 83,
+        "kernel_std": 0.8636311061920836,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.003564323816491997,
+        "d_embedding": 328
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 2.524529936142652e-05
+    }
+}

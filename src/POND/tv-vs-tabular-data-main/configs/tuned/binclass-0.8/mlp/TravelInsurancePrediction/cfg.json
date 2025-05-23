@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9024390243902439,
+    "n_trial": 71,
+    "dataset": "TravelInsurancePrediction",
+    "model": {
+        "n_layers": 11,
+        "first_dim": 863,
+        "mid_dim": 866,
+        "last_dim": 942,
+        "dropout": 0.30203114536502845,
+        "d_embedding": 65
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0034577771633349697,
+        "weight_decay": 0.000246460929487457
+    }
+}

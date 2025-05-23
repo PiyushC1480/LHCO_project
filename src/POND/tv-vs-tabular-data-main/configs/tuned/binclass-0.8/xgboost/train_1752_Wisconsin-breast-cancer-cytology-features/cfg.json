@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 2,
+    "dataset": "train_1752_Wisconsin-breast-cancer-cytology-features",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 1.8713020734583634e-07,
+        "colsample_bylevel": 0.5982384069740745,
+        "colsample_bytree": 0.7876769505766394,
+        "gamma": 5.309935478566775,
+        "lambda": 0.02120496373348332,
+        "learning_rate": 0.8310930468961875,
+        "max_depth": 3,
+        "min_child_weight": 2.599377156681177e-07,
+        "subsample": 0.5481050652033674
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

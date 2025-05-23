@@ -1,0 +1,37 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.0/catboost-tuned/train_1752_Wisconsin-breast-cancer-cytology-features",
+        "dataset": "train_1752_Wisconsin-breast-cancer-cytology-features",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9892869687390236,
+        "n_trial": 22,
+        "dataset": "train_1752_Wisconsin-breast-cancer-cytology-features",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 1.2342222487889436,
+            "bagging_temperature": 0.8552784266835941,
+            "depth": 4,
+            "leaf_estimation_iterations": 2,
+            "learning_rate": 0.9704758869450292
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.9892869687390236,
+    "final_test_score": 0.9911684782608695
+}

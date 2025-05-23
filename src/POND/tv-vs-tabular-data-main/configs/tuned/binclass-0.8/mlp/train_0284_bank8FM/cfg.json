@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9750241896468312,
+    "n_trial": 36,
+    "dataset": "train_0284_bank8FM",
+    "model": {
+        "n_layers": 4,
+        "first_dim": 92,
+        "mid_dim": 494,
+        "last_dim": 581,
+        "dropout": 0.16719041935548287,
+        "d_embedding": 107
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.003049463427013428,
+        "weight_decay": 1.0589871344488305e-05
+    }
+}

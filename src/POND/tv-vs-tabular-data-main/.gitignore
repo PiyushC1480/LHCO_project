@@ -1,0 +1,9 @@
+data
+bin/__pycache__
+lib/__pycache__
+lib/*/__pycache__
+lib/*/*/__pycache__
+scripts/finetune/tune/__pycache__
+# checkpoints
+checkpoints/*/pytorch_models
+checkpoints/*.gz

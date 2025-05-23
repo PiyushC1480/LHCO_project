@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_1600_VulNoneVul",
+        "dataset": "train_1600_VulNoneVul",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9291666666666667,
+        "n_trial": 4,
+        "dataset": "train_1600_VulNoneVul",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 1.1709778420292256,
+            "bagging_temperature": 0.8033423772548868,
+            "depth": 4,
+            "leaf_estimation_iterations": 5,
+            "learning_rate": 6.779522458609055e-05
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.9291666666666667,
+    "final_test_score": 0.6993068987749839,
+    "tr_times": 0.4275338649749756,
+    "ev_times": 0.0002460479736328125,
+    "test_times": 0.00031876564025878906,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 10056
+}

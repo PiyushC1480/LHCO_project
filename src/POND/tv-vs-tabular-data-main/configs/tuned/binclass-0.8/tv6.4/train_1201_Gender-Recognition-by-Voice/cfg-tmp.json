@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9730872741253365,
+    "n_trial": 71,
+    "dataset": "train_1201_Gender-Recognition-by-Voice",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 217,
+        "n_kernel": 59,
+        "kernel_std": 0.21660773453007617,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.018049825686387366
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 1.735662491433085e-05
+    }
+}

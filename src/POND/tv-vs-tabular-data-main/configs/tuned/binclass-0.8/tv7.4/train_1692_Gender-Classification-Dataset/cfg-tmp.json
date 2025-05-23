@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9959374999999999,
+    "n_trial": 43,
+    "dataset": "train_1692_Gender-Classification-Dataset",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "embd",
+        "n_vectors": 117,
+        "n_kernel": 639,
+        "kernel_std": 0.45147233904392337,
+        "use_score": "rbf",
+        "reg_wt": 0.038970266951041645,
+        "d_embedding": 73
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 5.817605672053968e-05
+    }
+}

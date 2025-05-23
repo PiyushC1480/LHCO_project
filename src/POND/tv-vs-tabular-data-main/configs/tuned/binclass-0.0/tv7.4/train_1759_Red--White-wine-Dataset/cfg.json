@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9966617506377551,
+    "n_trial": 58,
+    "dataset": "train_1759_Red--White-wine-Dataset",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 304,
+        "n_kernel": 223,
+        "kernel_std": 0.5946557632979633,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.006931383165808614,
+        "d_embedding": 104
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 1.1974913764862655e-05
+    }
+}

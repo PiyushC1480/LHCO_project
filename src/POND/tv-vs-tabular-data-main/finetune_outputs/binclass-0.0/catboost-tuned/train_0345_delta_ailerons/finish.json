@@ -1,0 +1,37 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.0/catboost-tuned/train_0345_delta_ailerons",
+        "dataset": "train_0345_delta_ailerons",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9761548661650427,
+        "n_trial": 95,
+        "dataset": "train_0345_delta_ailerons",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 1.0603074454149604,
+            "bagging_temperature": 0.05538078085653329,
+            "depth": 10,
+            "leaf_estimation_iterations": 5,
+            "learning_rate": 0.10999418516002997
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.9761548661650427,
+    "final_test_score": 0.9800082143146279
+}

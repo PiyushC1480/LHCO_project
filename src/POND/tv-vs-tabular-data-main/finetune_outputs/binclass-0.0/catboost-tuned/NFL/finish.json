@@ -1,0 +1,37 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.0/catboost-tuned/NFL",
+        "dataset": "NFL",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7719910678953021,
+        "n_trial": 92,
+        "dataset": "NFL",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 3.6310916080649833,
+            "bagging_temperature": 0.850737975160419,
+            "depth": 4,
+            "leaf_estimation_iterations": 3,
+            "learning_rate": 0.06689126913547767
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.7719910678953021,
+    "final_test_score": 0.7402687904430065
+}

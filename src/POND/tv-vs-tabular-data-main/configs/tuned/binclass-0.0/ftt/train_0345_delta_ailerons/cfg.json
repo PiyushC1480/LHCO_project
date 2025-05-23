@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9779912421364253,
+    "n_trial": 61,
+    "dataset": "train_0345_delta_ailerons",
+    "model": {
+        "attention_dropout": 0.023042521609265683,
+        "d_ffn_factor": 1.1758716891672691,
+        "d_token": 184,
+        "ffn_dropout": 0.0627018882257335,
+        "n_blocks": 1,
+        "residual_dropout": 0.0692223063450312
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00021571412432219185,
+        "weight_decay": 3.4989873801030494e-06
+    }
+}

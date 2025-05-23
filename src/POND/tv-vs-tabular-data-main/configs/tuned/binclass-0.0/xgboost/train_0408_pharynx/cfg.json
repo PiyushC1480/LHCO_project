@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8291666666666667,
+    "n_trial": 22,
+    "dataset": "train_0408_pharynx",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 1.372082850085502e-07,
+        "colsample_bylevel": 0.6769833331433507,
+        "colsample_bytree": 0.8462810332154336,
+        "gamma": 1.7188248614864259,
+        "lambda": 2.0848861311909955e-05,
+        "learning_rate": 0.028357335556083146,
+        "max_depth": 9,
+        "min_child_weight": 0.3486083139841088,
+        "subsample": 0.683535658265437
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

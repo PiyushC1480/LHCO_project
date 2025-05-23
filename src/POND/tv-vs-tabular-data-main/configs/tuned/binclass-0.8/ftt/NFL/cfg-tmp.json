@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7572883737267299,
+    "n_trial": 11,
+    "dataset": "NFL",
+    "model": {
+        "attention_dropout": 0.34018065815099197,
+        "d_ffn_factor": 2.597845951256888,
+        "d_token": 152,
+        "ffn_dropout": 0.23471247026008804,
+        "n_blocks": 2,
+        "residual_dropout": 0.0138837663108623
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0001540041606053333,
+        "weight_decay": 0.0008978747584045097
+    }
+}

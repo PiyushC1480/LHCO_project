@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.541957807041118,
+    "n_trial": 3,
+    "dataset": "train_1512_eye_movements",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 521,
+        "n_kernel": 181,
+        "kernel_std": 0.19193285189864204,
+        "use_kernel": "rbf",
+        "use_score": "lin",
+        "reg_wt": 0.0013805304829421752,
+        "d_embedding": 293
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00015146192704312944
+    }
+}

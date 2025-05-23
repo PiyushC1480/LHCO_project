@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 4,
+    "dataset": "train_1752_Wisconsin-breast-cancer-cytology-features",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "embd",
+        "n_vectors": 387,
+        "n_kernel": 27,
+        "kernel_std": 0.26071734801885027,
+        "use_score": "rbf",
+        "reg_wt": 0.004849828325349061,
+        "d_embedding": 85
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 5.736481005424168e-05
+    }
+}

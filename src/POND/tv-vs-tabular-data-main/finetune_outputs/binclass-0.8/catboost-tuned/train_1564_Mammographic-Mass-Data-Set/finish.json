@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_1564_Mammographic-Mass-Data-Set",
+        "dataset": "train_1564_Mammographic-Mass-Data-Set",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.967032967032967,
+        "n_trial": 69,
+        "dataset": "train_1564_Mammographic-Mass-Data-Set",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 3.405668699190295,
+            "bagging_temperature": 0.6088876779157792,
+            "depth": 5,
+            "leaf_estimation_iterations": 2,
+            "learning_rate": 0.0937407153033376
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.967032967032967,
+    "final_test_score": 0.8954974582425563,
+    "tr_times": 0.4080185890197754,
+    "ev_times": 0.0001838207244873047,
+    "test_times": 0.0002865791320800781,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 16088
+}

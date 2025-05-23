@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9367074275362319,
+    "n_trial": 61,
+    "dataset": "train_1564_Mammographic-Mass-Data-Set",
+    "model": {
+        "attention_dropout": 0.3411119200690359,
+        "d_ffn_factor": 1.5958640423749557,
+        "d_token": 192,
+        "ffn_dropout": 0.2213275875243087,
+        "n_blocks": 3,
+        "residual_dropout": 0.4981526815917743
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0008984309491847191,
+        "weight_decay": 1.019790597895313e-06
+    }
+}

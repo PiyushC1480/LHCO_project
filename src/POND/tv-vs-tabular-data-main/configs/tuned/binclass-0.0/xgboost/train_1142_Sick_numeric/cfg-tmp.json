@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9970446637113304,
+    "n_trial": 68,
+    "dataset": "train_1142_Sick_numeric",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.11823447073259018,
+        "colsample_bylevel": 0.9006076899974436,
+        "colsample_bytree": 0.8303418111498956,
+        "gamma": 9.618712184094608e-05,
+        "lambda": 0.0037173479707261446,
+        "learning_rate": 0.41090150561608185,
+        "max_depth": 5,
+        "min_child_weight": 5.542779257635828e-07,
+        "subsample": 0.9313087828232861
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

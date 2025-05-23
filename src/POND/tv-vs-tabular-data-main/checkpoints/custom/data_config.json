@@ -1,0 +1,28 @@
+{
+  "num_cont_token": 256,
+  "num_cat_token": 16,
+  "max_class_num": 30,
+  "max_feature_length": 8,
+  "max_seq_length": 512,
+  "train_ratio": 0.95,
+  "data_dir": "/home/bingxing2/gpuuser618/research/release1/data/pretrain-bin",
+  "feature_map_file": "feature_names.json",
+  "batch_size": 512,
+  "preproc_type": "lm",
+  "name": "custom",
+  "dataset_id": "",
+  "num_features": "",
+  "train_size": 0.2,
+  "val_size": 0.2,
+  "shuffle": true,
+  "randomize": false,
+  "test_batch_size": "all",
+  "multiply_test_size": 1,
+  "num_nan_policy": "mean",
+  "cat_nan_policy": "most_frequent",
+  "cat_policy": "indices",
+  "p_classes": {
+    "0": "0 - zero",
+    "1": "1 - one"
+  }
+}

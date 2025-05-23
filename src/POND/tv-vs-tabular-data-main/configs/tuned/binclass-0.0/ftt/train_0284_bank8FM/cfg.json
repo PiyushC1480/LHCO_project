@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9912709885466474,
+    "n_trial": 23,
+    "dataset": "train_0284_bank8FM",
+    "model": {
+        "attention_dropout": 0.3519783209162438,
+        "d_ffn_factor": 1.3386277040124677,
+        "d_token": 88,
+        "ffn_dropout": 0.44214541093905274,
+        "n_blocks": 2,
+        "residual_dropout": 0.3059269270825885
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00036221841685900134,
+        "weight_decay": 5.729661265114222e-06
+    }
+}

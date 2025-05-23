@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9729567307692308,
+    "n_trial": 0,
+    "dataset": "train_1451_early-stage-diabetes",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 372,
+        "n_kernel": 62,
+        "kernel_std": 0.8045892061741285,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.06199331607833904,
+        "d_embedding": 179
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 5.9067904492665596e-05
+    }
+}

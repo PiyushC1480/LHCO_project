@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 2,
+    "dataset": "train_1759_Red--White-wine-Dataset",
+    "model": {
+        "n_layers": 9,
+        "first_dim": 842,
+        "mid_dim": 579,
+        "last_dim": 656,
+        "dropout": 0.48314684980125944,
+        "d_embedding": 95
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.006971066350459043,
+        "weight_decay": 0.00010194258301960603
+    }
+}

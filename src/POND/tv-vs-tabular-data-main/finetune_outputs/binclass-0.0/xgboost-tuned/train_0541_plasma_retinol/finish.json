@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_0541_plasma_retinol",
+        "dataset": "train_0541_plasma_retinol",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7928571428571429,
+        "n_trial": 93,
+        "dataset": "train_0541_plasma_retinol",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 2.2198627559780253e-07,
+            "colsample_bylevel": 0.5667034645607342,
+            "colsample_bytree": 0.7667835291389073,
+            "gamma": 0.011077910357246964,
+            "lambda": 0.004857361874291633,
+            "learning_rate": 0.3453824703047756,
+            "max_depth": 8,
+            "min_child_weight": 0.017115012976191193,
+            "subsample": 0.7652786635467976
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.7928571428571429,
+    "final_test_score": 0.477880658436214
+}

@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9640522875816994,
+    "n_trial": 71,
+    "dataset": "train_0356_delta_elevators",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 2.0266187379262277,
+        "bagging_temperature": 0.11907189015170294,
+        "depth": 9,
+        "leaf_estimation_iterations": 3,
+        "learning_rate": 0.1422125526998712
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

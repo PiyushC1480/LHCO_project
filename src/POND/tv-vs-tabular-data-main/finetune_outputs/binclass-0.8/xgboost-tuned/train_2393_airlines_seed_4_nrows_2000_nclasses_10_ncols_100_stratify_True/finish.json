@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_2393_airlines_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "dataset": "train_2393_airlines_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7029556650246306,
+        "n_trial": 76,
+        "dataset": "train_2393_airlines_seed_4_nrows_2000_nclasses_10_ncols_100_stratify_True",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 7.466767986751911e-06,
+            "colsample_bylevel": 0.583162742733077,
+            "colsample_bytree": 0.508998282160046,
+            "gamma": 0.005708826054202954,
+            "lambda": 8.590861700889038,
+            "learning_rate": 0.6082886153509741,
+            "max_depth": 4,
+            "min_child_weight": 19.485158817913025,
+            "subsample": 0.9359327864213334
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.7029556650246306,
+    "final_test_score": 0.5773104565239396,
+    "tr_times": 0.013204336166381836,
+    "ev_times": 0.00016808509826660156,
+    "test_times": 0.00021028518676757812,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 16136
+}

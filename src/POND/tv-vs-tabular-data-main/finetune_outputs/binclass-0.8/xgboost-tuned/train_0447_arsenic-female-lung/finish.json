@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0447_arsenic-female-lung",
+        "dataset": "train_0447_arsenic-female-lung",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 15,
+        "dataset": "train_0447_arsenic-female-lung",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 9.561683643007746e-08,
+            "colsample_bylevel": 0.7195982006535455,
+            "colsample_bytree": 0.7904584045514245,
+            "gamma": 0.8657893600885932,
+            "lambda": 0.04503782001130945,
+            "learning_rate": 0.0001370289107571302,
+            "max_depth": 8,
+            "min_child_weight": 0.018188405352364503,
+            "subsample": 0.7904598519160112
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.875,
+    "tr_times": 0.010677337646484375,
+    "ev_times": 0.0001800060272216797,
+    "test_times": 0.0001423358917236328,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 11919
+}

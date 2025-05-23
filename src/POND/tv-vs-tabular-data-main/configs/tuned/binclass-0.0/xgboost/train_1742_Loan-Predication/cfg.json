@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.804079696394687,
+    "n_trial": 60,
+    "dataset": "train_1742_Loan-Predication",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 1.679692665453534e-07,
+        "colsample_bylevel": 0.7396832889552664,
+        "colsample_bytree": 0.7297233727187401,
+        "gamma": 0.00038601739410743863,
+        "lambda": 5.4289731752899995,
+        "learning_rate": 0.003152760946470464,
+        "max_depth": 6,
+        "min_child_weight": 0.03272779736368452,
+        "subsample": 0.6308015853563144
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

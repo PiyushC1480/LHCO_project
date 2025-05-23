@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9563953488372093,
+    "n_trial": 15,
+    "dataset": "train_0445_arsenic-male-bladder",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 346,
+        "n_kernel": 87,
+        "kernel_std": 0.5292302892657534,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.01880644005679417
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0005763252934707214
+    }
+}

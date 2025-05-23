@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.96875,
+    "n_trial": 79,
+    "dataset": "train_0472_analcatdata_marketing",
+    "model": {
+        "n_layers": 8,
+        "first_dim": 935,
+        "mid_dim": 593,
+        "last_dim": 758,
+        "dropout": 0.2699150274233245,
+        "d_embedding": 77
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00505893982964508,
+        "weight_decay": 0.0001830234839980046
+    }
+}

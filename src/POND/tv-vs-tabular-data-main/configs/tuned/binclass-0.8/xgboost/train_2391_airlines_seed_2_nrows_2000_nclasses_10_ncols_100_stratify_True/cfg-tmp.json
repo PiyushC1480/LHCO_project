@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7246305418719212,
+    "n_trial": 45,
+    "dataset": "train_2391_airlines_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 4.568851452958619e-07,
+        "colsample_bylevel": 0.5211144743454257,
+        "colsample_bytree": 0.5517537675436854,
+        "gamma": 0.003216502472278776,
+        "lambda": 0.014291025592354048,
+        "learning_rate": 0.38579884701823414,
+        "max_depth": 3,
+        "min_child_weight": 0.001022147114912974,
+        "subsample": 0.9316661696968626
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

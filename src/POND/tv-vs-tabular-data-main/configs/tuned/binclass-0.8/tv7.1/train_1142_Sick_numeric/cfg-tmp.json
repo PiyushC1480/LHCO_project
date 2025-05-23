@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9661654135338346,
+    "n_trial": 10,
+    "dataset": "train_1142_Sick_numeric",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 490,
+        "n_kernel": 24,
+        "kernel_std": 0.9564104303780789,
+        "use_kernel": "lin",
+        "use_score": "rbf",
+        "reg_wt": 0.00911302493872489,
+        "d_embedding": 81
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 9.665477929357077e-05
+    }
+}

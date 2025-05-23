@@ -1,0 +1,29 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7295285359801489,
+    "n_trial": 89,
+    "dataset": "train_0437_quake",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "embd",
+        "n_vectors": 783,
+        "n_kernel": 126,
+        "kernel_std": 0.9108064305843515,
+        "use_score": "rbf",
+        "reg_wt": 0.0015087236293090975
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0004503235977276092
+    }
+}

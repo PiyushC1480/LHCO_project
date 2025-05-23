@@ -1,0 +1,37 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.0/catboost-tuned/train_1742_Loan-Predication",
+        "dataset": "train_1742_Loan-Predication",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7661290322580645,
+        "n_trial": 44,
+        "dataset": "train_1742_Loan-Predication",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 9.670655562928516,
+            "bagging_temperature": 0.10441651309920824,
+            "depth": 6,
+            "leaf_estimation_iterations": 5,
+            "learning_rate": 0.623908550462576
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.7661290322580645,
+    "final_test_score": 0.7555727554179567
+}

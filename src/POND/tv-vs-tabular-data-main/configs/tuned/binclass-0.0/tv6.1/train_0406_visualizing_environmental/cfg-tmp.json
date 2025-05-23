@@ -1,0 +1,30 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.888888888888889,
+    "n_trial": 12,
+    "dataset": "train_0406_visualizing_environmental",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 215,
+        "n_kernel": 32,
+        "kernel_std": 0.843704297979636,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.023801420380878142
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0003120983008964384
+    }
+}

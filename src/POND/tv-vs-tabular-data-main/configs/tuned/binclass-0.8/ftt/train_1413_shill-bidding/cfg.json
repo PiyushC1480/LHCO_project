@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 3,
+    "dataset": "train_1413_shill-bidding",
+    "model": {
+        "attention_dropout": 0.3841417106378651,
+        "d_ffn_factor": 1.4318930916875319,
+        "d_token": 160,
+        "ffn_dropout": 0.4143746507209046,
+        "n_blocks": 3,
+        "residual_dropout": 0.16444522548553803
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 1.6115472823649747e-05,
+        "weight_decay": 3.388448293072874e-06
+    }
+}

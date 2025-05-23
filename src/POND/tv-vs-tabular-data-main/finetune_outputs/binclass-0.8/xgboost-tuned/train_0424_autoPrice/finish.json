@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0424_autoPrice",
+        "dataset": "train_0424_autoPrice",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 0,
+        "dataset": "train_0424_autoPrice",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 1.3478318284237723e-07,
+            "colsample_bylevel": 0.9155352449251701,
+            "colsample_bytree": 0.9958209374175506,
+            "gamma": 0.00024087590774245142,
+            "lambda": 0.0010864487399702952,
+            "learning_rate": 0.001127012509582082,
+            "max_depth": 8,
+            "min_child_weight": 0.0063065551357874994,
+            "subsample": 0.6480290447265895
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.7034632034632035,
+    "tr_times": 0.012132644653320312,
+    "ev_times": 0.00023794174194335938,
+    "test_times": 0.00022602081298828125,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 13239
+}

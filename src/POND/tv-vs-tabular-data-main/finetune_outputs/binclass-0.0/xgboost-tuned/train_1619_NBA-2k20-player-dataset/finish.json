@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_1619_NBA-2k20-player-dataset",
+        "dataset": "train_1619_NBA-2k20-player-dataset",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 80,
+        "dataset": "train_1619_NBA-2k20-player-dataset",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 2.2726998555830847e-07,
+            "colsample_bylevel": 0.7196674646113528,
+            "colsample_bytree": 0.5485107958479551,
+            "gamma": 6.852986122997915e-06,
+            "lambda": 0.005398489492313501,
+            "learning_rate": 4.182166478542889e-05,
+            "max_depth": 3,
+            "min_child_weight": 0.21046663910227978,
+            "subsample": 0.6119236823007318
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 1.0
+}

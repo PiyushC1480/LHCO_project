@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9640005806357961,
+    "n_trial": 96,
+    "dataset": "train_1578_kdd_ipums_la_97-small",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 4.4726611007034146e-07,
+        "colsample_bylevel": 0.6177920555610767,
+        "colsample_bytree": 0.9425357504792211,
+        "gamma": 0.6531317912241621,
+        "lambda": 0.0005011602675227717,
+        "learning_rate": 3.925102252987578e-05,
+        "max_depth": 4,
+        "min_child_weight": 0.01059279840801749,
+        "subsample": 0.7615369409300751
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

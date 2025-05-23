@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7972027972027972,
+    "n_trial": 44,
+    "dataset": "train_0446_arsenic-female-bladder",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 1.284399060638422,
+        "bagging_temperature": 0.7153487785054855,
+        "depth": 10,
+        "leaf_estimation_iterations": 6,
+        "learning_rate": 0.11749484996259331
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

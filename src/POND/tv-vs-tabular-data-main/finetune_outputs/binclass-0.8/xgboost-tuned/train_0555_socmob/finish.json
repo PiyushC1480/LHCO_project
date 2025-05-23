@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_0555_socmob",
+        "dataset": "train_0555_socmob",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9741379310344828,
+        "n_trial": 30,
+        "dataset": "train_0555_socmob",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.010215339743205052,
+            "colsample_bylevel": 0.997538251599917,
+            "colsample_bytree": 0.9234103379147316,
+            "gamma": 0.0008201949821321952,
+            "lambda": 7.721418231194529e-06,
+            "learning_rate": 0.0003362543379768936,
+            "max_depth": 4,
+            "min_child_weight": 0.2565640523060307,
+            "subsample": 0.8109832629147928
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9741379310344828,
+    "final_test_score": 0.9502762430939226,
+    "tr_times": 0.013552427291870117,
+    "ev_times": 0.00016355514526367188,
+    "test_times": 0.00015592575073242188,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 23059
+}

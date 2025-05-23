@@ -1,0 +1,22 @@
+27956 97708
+Training samples: 100531, Testing samples: 25133
+
+
+
+Fitting 5 folds for each of 108 candidates, totalling 540 fits
+Best Parameters: {'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200, 'subsample': 0.7}
+Accuracy XGB: 0.9775832949485644
+ROC AUC XGB: 0.988791073804893
+
+
+
+
+Confusion Matrix: 
+[[19100   438]
+ [    0     1]]
+Precision (Macro): 0.5011389521640092
+Recall (Macro): 0.9887910738048931
+F1-score (Macro): 0.4966047320348785
+Precision (Micro): 0.9775832949485644
+Recall (Micro): 0.9775832949485644
+F1-score (Micro): 0.9775832949485644

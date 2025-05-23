@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8035714285714286,
+    "n_trial": 58,
+    "dataset": "train_1742_Loan-Predication",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 2.9635172241351637,
+        "bagging_temperature": 0.000522651204628577,
+        "depth": 8,
+        "leaf_estimation_iterations": 6,
+        "learning_rate": 0.055439692803691036
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

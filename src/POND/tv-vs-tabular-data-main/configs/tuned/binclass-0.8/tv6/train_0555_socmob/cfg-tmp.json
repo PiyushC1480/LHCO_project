@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9741379310344828,
+    "n_trial": 40,
+    "dataset": "train_0555_socmob",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 70,
+        "n_kernel": 40,
+        "kernel_std": 0.7741539356709691,
+        "use_kernel": "lin",
+        "use_score": "lin",
+        "reg_wt": 0.0015746852328626252,
+        "d_embedding": 204
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 4.762066010743095e-05
+    }
+}

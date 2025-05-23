@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9628844114528102,
+    "n_trial": 21,
+    "dataset": "Customer_Behaviour",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.00010474331883978442,
+        "colsample_bylevel": 0.6572167465009029,
+        "colsample_bytree": 0.5849104924885585,
+        "gamma": 0.0030034454089842076,
+        "lambda": 0.000504622830477771,
+        "learning_rate": 0.08171285031397024,
+        "max_depth": 10,
+        "min_child_weight": 0.0005719408270215428,
+        "subsample": 0.8984241597119359
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

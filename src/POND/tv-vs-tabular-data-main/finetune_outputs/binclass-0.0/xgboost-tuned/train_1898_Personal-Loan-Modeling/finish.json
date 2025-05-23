@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_1898_Personal-Loan-Modeling",
+        "dataset": "train_1898_Personal-Loan-Modeling",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6243118056863115,
+        "n_trial": 97,
+        "dataset": "train_1898_Personal-Loan-Modeling",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 0.00022553859191276767,
+            "colsample_bylevel": 0.73722840728008,
+            "colsample_bytree": 0.71244456296901,
+            "gamma": 0.3072494966543601,
+            "lambda": 5.389133686531235e-06,
+            "learning_rate": 0.008902941459392476,
+            "max_depth": 10,
+            "min_child_weight": 0.0849013924220379,
+            "subsample": 0.7117372156651618
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.6243118056863115,
+    "final_test_score": 0.6103225992946754
+}

@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_1461_heart-failure",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 0.19041363692070007,
+        "colsample_bylevel": 0.8741135262518611,
+        "colsample_bytree": 0.9801621087940291,
+        "gamma": 1.5459774972314506e-06,
+        "lambda": 45.57608218314054,
+        "learning_rate": 0.00025497779770042333,
+        "max_depth": 7,
+        "min_child_weight": 8.522636206356131e-08,
+        "subsample": 0.6293676460874449
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

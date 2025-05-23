@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_0345_delta_ailerons",
+        "dataset": "train_0345_delta_ailerons",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9730911557912915,
+        "n_trial": 95,
+        "dataset": "train_0345_delta_ailerons",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 8.727084015916272e-07,
+            "colsample_bylevel": 0.6843049517533394,
+            "colsample_bytree": 0.8698962969339702,
+            "gamma": 2.474305204893432e-07,
+            "lambda": 5.420681344472256e-07,
+            "learning_rate": 0.004921929403304072,
+            "max_depth": 7,
+            "min_child_weight": 3.1822818053372397,
+            "subsample": 0.7908436345600952
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9730911557912915,
+    "final_test_score": 0.9773020320555731
+}

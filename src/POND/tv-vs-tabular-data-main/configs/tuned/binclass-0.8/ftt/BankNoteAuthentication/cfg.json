@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 1,
+    "dataset": "BankNoteAuthentication",
+    "model": {
+        "attention_dropout": 0.46793986257665054,
+        "d_ffn_factor": 1.7135880207868568,
+        "d_token": 208,
+        "ffn_dropout": 0.38999248867831565,
+        "n_blocks": 2,
+        "residual_dropout": 0.15284817221887514
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00035177702677967955,
+        "weight_decay": 6.046273501197247e-05
+    }
+}

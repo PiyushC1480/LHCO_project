@@ -1,0 +1,43 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.8/catboost-tuned/train_1898_Personal-Loan-Modeling",
+        "dataset": "train_1898_Personal-Loan-Modeling",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.6738843908868386,
+        "n_trial": 74,
+        "dataset": "train_1898_Personal-Loan-Modeling",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 3.457623424774658,
+            "bagging_temperature": 0.04024745888247461,
+            "depth": 8,
+            "leaf_estimation_iterations": 8,
+            "learning_rate": 0.9776146685437439
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.6738843908868386,
+    "final_test_score": 0.6071235859783006,
+    "tr_times": 2.3134756088256836,
+    "ev_times": 0.0004673004150390625,
+    "test_times": 0.0013735294342041016,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 11816
+}

@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9435538110791877,
+    "n_trial": 98,
+    "dataset": "train_0356_delta_elevators",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 8.939530609394056e-07,
+        "colsample_bylevel": 0.5765682647671064,
+        "colsample_bytree": 0.9019900863749056,
+        "gamma": 2.6313280944706085e-08,
+        "lambda": 0.00033598637203575233,
+        "learning_rate": 0.00850626079881915,
+        "max_depth": 10,
+        "min_child_weight": 4.3712645817634106e-08,
+        "subsample": 0.7043929756144373
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

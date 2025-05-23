@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.908359375,
+    "n_trial": 68,
+    "dataset": "train_2306_electricity_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "attention_dropout": 0.10131227409322485,
+        "d_ffn_factor": 1.996329040913313,
+        "d_token": 224,
+        "ffn_dropout": 0.01744222553133128,
+        "n_blocks": 2,
+        "residual_dropout": 0.05565953444109371
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.00017733785656086088,
+        "weight_decay": 0.00013719687155018791
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "Customer_Behaviour",
+    "model": {
+        "attention_dropout": 0.3550973418717519,
+        "d_ffn_factor": 1.1813775647755294,
+        "d_token": 216,
+        "ffn_dropout": 0.08326941810765426,
+        "n_blocks": 2,
+        "residual_dropout": 0.31072077369603907
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 3.06368158634267e-05,
+        "weight_decay": 2.8256078867318887e-05
+    }
+}

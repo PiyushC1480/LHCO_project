@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 3,
+    "dataset": "train_1619_NBA-2k20-player-dataset",
+    "model": {
+        "attention_dropout": 0.4512210927188735,
+        "d_ffn_factor": 1.6621848825445404,
+        "d_token": 112,
+        "ffn_dropout": 0.4410451404894912,
+        "n_blocks": 3,
+        "residual_dropout": 0.06866214828604539
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0003892127331493187,
+        "weight_decay": 8.075581326438425e-06
+    }
+}

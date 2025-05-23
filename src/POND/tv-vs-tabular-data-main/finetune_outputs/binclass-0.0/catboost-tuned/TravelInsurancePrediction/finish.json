@@ -1,0 +1,37 @@
+{
+    "args": {
+        "model": "catboost",
+        "output": "finetune_outputs/binclass-0.0/catboost-tuned/TravelInsurancePrediction",
+        "dataset": "TravelInsurancePrediction",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.7775842793257653,
+        "n_trial": 94,
+        "dataset": "TravelInsurancePrediction",
+        "model": {
+            "iterations": 2000,
+            "metric_period": 10,
+            "od_pval": 0.001,
+            "task_type": "GPU",
+            "devices": "0",
+            "thread_count": 1,
+            "random_seed": 42,
+            "gpu_ram_part": 0.8,
+            "l2_leaf_reg": 4.202805682082771,
+            "bagging_temperature": 0.36525132178247,
+            "depth": 8,
+            "leaf_estimation_iterations": 2,
+            "learning_rate": 0.31910552269136633
+        },
+        "training": {
+            "early_stopping_rounds": 50,
+            "logging_level": "Verbose"
+        }
+    },
+    "best_eval_score": 0.7775842793257653,
+    "final_test_score": 0.7954445422535211
+}

@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9259259259259259,
+    "n_trial": 34,
+    "dataset": "train_0406_visualizing_environmental",
+    "model": {
+        "attention_dropout": 0.18334997002694983,
+        "d_ffn_factor": 1.9838921220755783,
+        "d_token": 160,
+        "ffn_dropout": 0.37671256907303213,
+        "n_blocks": 1,
+        "residual_dropout": 0.1822513673344774
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 9.020317454680618e-05,
+        "weight_decay": 5.324738634626699e-05
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.8/xgboost-tuned/train_1333_ricci_vs_destefano",
+        "dataset": "train_1333_ricci_vs_destefano",
+        "task": "binclass",
+        "reduce_data": 0.8
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 1.0,
+        "n_trial": 0,
+        "dataset": "train_1333_ricci_vs_destefano",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 1.2146684443289179e-08,
+            "colsample_bylevel": 0.684618655758102,
+            "colsample_bytree": 0.5242313102432816,
+            "gamma": 7.195544714503711e-08,
+            "lambda": 0.33115847980500285,
+            "learning_rate": 0.25253222168061656,
+            "max_depth": 10,
+            "min_child_weight": 2.1607903386096097e-07,
+            "subsample": 0.7040013848006652
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 1.0,
+    "final_test_score": 0.9335664335664335,
+    "tr_times": 0.011358261108398438,
+    "ev_times": 0.0001666545867919922,
+    "test_times": 0.00011277198791503906,
+    "param_total_size": 0,
+    "param_total_count": 0,
+    "model_size": 13755
+}

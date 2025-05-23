@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8873239436619719,
+    "n_trial": 93,
+    "dataset": "1487",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.4199130425032005,
+        "d": 230,
+        "hidden_dropout": 0.18434696698106465,
+        "n_cross_layers": 1,
+        "n_hidden_layers": 8
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0006975376361107951,
+        "weight_decay": 7.61604970491821e-05
+    }
+}

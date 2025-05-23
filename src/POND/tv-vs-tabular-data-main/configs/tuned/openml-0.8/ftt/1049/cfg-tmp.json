@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9179487179487179,
+    "n_trial": 95,
+    "dataset": "1049",
+    "model": {
+        "attention_dropout": 0.1775521014198777,
+        "d_ffn_factor": 1.2303745578080238,
+        "d_token": 200,
+        "ffn_dropout": 0.19560941960509787,
+        "n_blocks": 1,
+        "residual_dropout": 0.39947980807090105
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 7.625600132793838e-05,
+        "weight_decay": 0.00028576634456674993
+    }
+}

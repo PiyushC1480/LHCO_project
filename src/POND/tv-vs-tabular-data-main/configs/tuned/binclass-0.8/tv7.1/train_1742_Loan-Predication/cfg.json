@@ -1,0 +1,31 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9404761904761906,
+    "n_trial": 6,
+    "dataset": "train_1742_Loan-Predication",
+    "model": {
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "reg_type": "lin",
+        "combine_type": "embd",
+        "n_vectors": 175,
+        "n_kernel": 152,
+        "kernel_std": 0.5781068094888036,
+        "use_kernel": "rbf",
+        "use_score": "rbf",
+        "reg_wt": 0.052591655226950924,
+        "d_embedding": 72
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.00012796379528783248
+    }
+}

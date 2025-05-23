@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "BankNoteAuthentication",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.2549617093417524,
+        "d": 183,
+        "hidden_dropout": 0.1409604535848566,
+        "n_cross_layers": 4,
+        "n_hidden_layers": 4
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 4.988341336821811e-05,
+        "weight_decay": 5.954622861172108e-06
+    }
+}

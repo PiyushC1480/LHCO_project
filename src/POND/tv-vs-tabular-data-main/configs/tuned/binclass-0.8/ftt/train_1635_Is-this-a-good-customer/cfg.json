@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9251700680272109,
+    "n_trial": 91,
+    "dataset": "train_1635_Is-this-a-good-customer",
+    "model": {
+        "attention_dropout": 0.03168634007334252,
+        "d_ffn_factor": 1.092179328202108,
+        "d_token": 208,
+        "ffn_dropout": 0.17584559564739902,
+        "n_blocks": 2,
+        "residual_dropout": 0.24271202991384216
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.000886220841934197,
+        "weight_decay": 3.0845653827129142e-06
+    }
+}

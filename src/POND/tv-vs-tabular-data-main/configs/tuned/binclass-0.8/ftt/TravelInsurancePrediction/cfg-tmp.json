@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9204665959703076,
+    "n_trial": 45,
+    "dataset": "TravelInsurancePrediction",
+    "model": {
+        "attention_dropout": 0.08366179719135097,
+        "d_ffn_factor": 1.4275681598665886,
+        "d_token": 96,
+        "ffn_dropout": 0.08880323141731043,
+        "n_blocks": 2,
+        "residual_dropout": 0.07039022199146211
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 0.0008167581207309789,
+        "weight_decay": 0.0005745575527301174
+    }
+}

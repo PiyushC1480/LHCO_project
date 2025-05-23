@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7140403525659174,
+    "n_trial": 55,
+    "dataset": "train_1512_eye_movements",
+    "model": {
+        "iterations": 2000,
+        "metric_period": 10,
+        "od_pval": 0.001,
+        "task_type": "GPU",
+        "devices": "0",
+        "thread_count": 1,
+        "random_seed": 42,
+        "gpu_ram_part": 0.8,
+        "l2_leaf_reg": 4.00226979187242,
+        "bagging_temperature": 0.14639879693727492,
+        "depth": 10,
+        "leaf_estimation_iterations": 5,
+        "learning_rate": 0.11370910557839849
+    },
+    "training": {
+        "early_stopping_rounds": 50,
+        "logging_level": "Verbose"
+    }
+}

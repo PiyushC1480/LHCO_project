@@ -1,0 +1,29 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.7777777777777779,
+    "n_trial": 39,
+    "dataset": "train_0446_arsenic-female-bladder",
+    "model": {
+        "use_kernel": "lin",
+        "normalize_proj_diff": "max-detached",
+        "detached_vec_norm": true,
+        "detached_pivots": false,
+        "use_svm_score": true,
+        "train_gamma": false,
+        "use_kernel_weight": true,
+        "train_std": false,
+        "combine_type": "default",
+        "n_vectors": 757,
+        "n_kernel": 39,
+        "kernel_std": 0.5148967168582177,
+        "use_score": "rbf",
+        "reg_wt": 0.023223506677089997
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "lr": 0.0009992011685756625
+    }
+}

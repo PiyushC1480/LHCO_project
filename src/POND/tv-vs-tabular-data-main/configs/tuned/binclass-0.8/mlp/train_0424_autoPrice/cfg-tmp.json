@@ -1,0 +1,20 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0424_autoPrice",
+    "model": {
+        "n_layers": 12,
+        "first_dim": 988,
+        "mid_dim": 771,
+        "last_dim": 794,
+        "dropout": 0.36980730082844593
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00018933349885133494,
+        "weight_decay": 4.106166117008337e-06
+    }
+}

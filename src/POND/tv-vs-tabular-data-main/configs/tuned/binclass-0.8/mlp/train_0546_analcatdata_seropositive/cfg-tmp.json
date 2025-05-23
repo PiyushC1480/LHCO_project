@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 1.0,
+    "n_trial": 0,
+    "dataset": "train_0546_analcatdata_seropositive",
+    "model": {
+        "n_layers": 10,
+        "first_dim": 689,
+        "mid_dim": 545,
+        "last_dim": 416,
+        "dropout": 0.1478164623887106,
+        "d_embedding": 101
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0012939316954474706,
+        "weight_decay": 0.00015390766712869653
+    }
+}

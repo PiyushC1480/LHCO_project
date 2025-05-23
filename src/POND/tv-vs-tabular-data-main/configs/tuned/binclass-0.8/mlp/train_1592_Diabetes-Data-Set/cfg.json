@@ -1,0 +1,20 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8680555555555556,
+    "n_trial": 74,
+    "dataset": "train_1592_Diabetes-Data-Set",
+    "model": {
+        "n_layers": 9,
+        "first_dim": 136,
+        "mid_dim": 163,
+        "last_dim": 885,
+        "dropout": 0.07333027305997392
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00011942015020160833,
+        "weight_decay": 4.65203851424472e-05
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.5865979381443298,
+    "n_trial": 82,
+    "dataset": "train_0437_quake",
+    "model": {
+        "booster": "gbtree",
+        "n_estimators": 2000,
+        "n_jobs": -1,
+        "tree_method": "hist",
+        "alpha": 8.021995941183856e-08,
+        "colsample_bylevel": 0.6792641658319237,
+        "colsample_bytree": 0.9513576604116522,
+        "gamma": 1.6479164534293648e-07,
+        "lambda": 1.1283235196175275e-07,
+        "learning_rate": 0.5041565264265351,
+        "max_depth": 6,
+        "min_child_weight": 21.757212572658343,
+        "subsample": 0.8072065581551724
+    },
+    "training": {
+        "early_stopping_rounds": 20,
+        "verbose": false
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_1736_combined-wine-data",
+        "dataset": "train_1736_combined-wine-data",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9999302455357143,
+        "n_trial": 41,
+        "dataset": "train_1736_combined-wine-data",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 2.5911009345701617e-07,
+            "colsample_bylevel": 0.973127882729049,
+            "colsample_bytree": 0.5044559824282698,
+            "gamma": 7.260269121038306e-08,
+            "lambda": 0.0008015212242770092,
+            "learning_rate": 0.41053044315680604,
+            "max_depth": 8,
+            "min_child_weight": 3.847927499789108e-07,
+            "subsample": 0.9479278568065835
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9999302455357143,
+    "final_test_score": 0.999703443877551
+}

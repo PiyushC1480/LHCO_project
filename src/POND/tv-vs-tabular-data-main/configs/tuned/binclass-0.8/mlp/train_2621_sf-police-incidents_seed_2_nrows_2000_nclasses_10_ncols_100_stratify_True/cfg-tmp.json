@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.6830357142857143,
+    "n_trial": 30,
+    "dataset": "train_2621_sf-police-incidents_seed_2_nrows_2000_nclasses_10_ncols_100_stratify_True",
+    "model": {
+        "n_layers": 10,
+        "first_dim": 568,
+        "mid_dim": 724,
+        "last_dim": 956,
+        "dropout": 0.0007919689619180215,
+        "d_embedding": 91
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.0022035833456231706,
+        "weight_decay": 4.549650009563073e-05
+    }
+}

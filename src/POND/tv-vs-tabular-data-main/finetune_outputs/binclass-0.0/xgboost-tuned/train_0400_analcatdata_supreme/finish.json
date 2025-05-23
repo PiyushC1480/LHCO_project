@@ -1,0 +1,38 @@
+{
+    "args": {
+        "model": "xgboost",
+        "output": "finetune_outputs/binclass-0.0/xgboost-tuned/train_0400_analcatdata_supreme",
+        "dataset": "train_0400_analcatdata_supreme",
+        "task": "binclass",
+        "reduce_data": 0.0
+    },
+    "device": "NVIDIA GeForce RTX 3090",
+    "configs": {
+        "metric": "roc_auc",
+        "eval_score": 0.9999544910802517,
+        "n_trial": 60,
+        "dataset": "train_0400_analcatdata_supreme",
+        "model": {
+            "booster": "gbtree",
+            "n_estimators": 2000,
+            "n_jobs": -1,
+            "tree_method": "hist",
+            "alpha": 1.1273821385470279e-06,
+            "colsample_bylevel": 0.9440934827083179,
+            "colsample_bytree": 0.7949354476933481,
+            "gamma": 2.0460733929220986e-07,
+            "lambda": 1.015528532461614e-08,
+            "learning_rate": 0.08588606910540734,
+            "max_depth": 10,
+            "min_child_weight": 0.02104013527091496,
+            "subsample": 0.8339890055307436
+        },
+        "training": {
+            "early_stopping_rounds": 20,
+            "verbose": false,
+            "eval_metric": "error"
+        }
+    },
+    "best_eval_score": 0.9999544910802517,
+    "final_test_score": 0.9991770956908219
+}

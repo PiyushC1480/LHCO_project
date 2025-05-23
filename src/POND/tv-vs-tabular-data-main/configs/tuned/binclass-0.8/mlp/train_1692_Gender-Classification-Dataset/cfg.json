@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.9986718750000001,
+    "n_trial": 7,
+    "dataset": "train_1692_Gender-Classification-Dataset",
+    "model": {
+        "n_layers": 11,
+        "first_dim": 96,
+        "mid_dim": 801,
+        "last_dim": 307,
+        "dropout": 0.2840541697472454,
+        "d_embedding": 70
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 1.3623029985160805e-05,
+        "weight_decay": 1.133955484835349e-06
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8330275229357798,
+    "n_trial": 68,
+    "dataset": "Breast_Cancer",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.3319232542054551,
+        "d": 448,
+        "hidden_dropout": 0.14101532991952348,
+        "n_cross_layers": 4,
+        "n_hidden_layers": 3,
+        "d_embedding": 83
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 0.00660856821333024,
+        "weight_decay": 1.3516982166458063e-05
+    }
+}

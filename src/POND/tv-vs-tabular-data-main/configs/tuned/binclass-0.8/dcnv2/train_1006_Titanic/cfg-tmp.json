@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.8111413043478262,
+    "n_trial": 90,
+    "dataset": "train_1006_Titanic",
+    "model": {
+        "stacked": false,
+        "cross_dropout": 0.06458827865796216,
+        "d": 111,
+        "hidden_dropout": 0.16071608352974356,
+        "n_cross_layers": 1,
+        "n_hidden_layers": 7
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 64,
+        "optimizer": "adamw",
+        "lr": 3.8699813423284435e-05,
+        "weight_decay": 6.6649215605364656e-06
+    }
+}

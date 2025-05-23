@@ -1,0 +1,21 @@
+{
+    "metric": "roc_auc",
+    "eval_score": 0.90625,
+    "n_trial": 5,
+    "dataset": "train_0472_analcatdata_marketing",
+    "model": {
+        "attention_dropout": 0.07378908459043715,
+        "d_ffn_factor": 2.3929993172700614,
+        "d_token": 224,
+        "ffn_dropout": 0.07046865802506108,
+        "n_blocks": 1,
+        "residual_dropout": 0.23801626617549293
+    },
+    "training": {
+        "batch_size": 64,
+        "eval_batch_size": 128,
+        "optimizer": "adamw",
+        "lr": 5.462230852591729e-05,
+        "weight_decay": 1.4318633262155681e-05
+    }
+}
