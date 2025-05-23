@@ -1,5 +1,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
-dataset/particleFlow_dataset.zip filter=lfs diff=lfs merge=lfs -text
-dataset/combined_dataset.csv filter=lfs diff=lfs merge=lfs -text
+output/models/model.pth filter=lfs diff=lfs merge=lfs -text
+dataset/cnn_data/all_imgs_order.zip filter=lfs diff=lfs merge=lfs -text
